@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModelNovaservit" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="RUC" />
+    </Key>
+    <Property Name="RUC" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombreEmpresa" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="proyectos" Relationship="Self.idClientes" FromRole="cliente" ToRole="proyectos" />
+  </EntityType>
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="idEmpresa" />
+    </Key>
+    <Property Name="idEmpresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="proveedors" Relationship="Self.FK_id_EmpresaProveedor" FromRole="empresa" ToRole="proveedor" />
+  </EntityType>
+  <EntityType Name="proveedor">
+    <Key>
+      <PropertyRef Name="idProveedor" />
+    </Key>
+    <Property Name="idProveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="producto" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="costo" Type="Double" Nullable="false" />
+    <Property Name="plan_de_pago" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_EmpresaProveedor" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="empresa" Relationship="Self.FK_id_EmpresaProveedor" FromRole="proveedor" ToRole="empresa" />
+  </EntityType>
+  <EntityType Name="proyecto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha_inicio" Type="DateTime" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Nullable="false" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <Property Name="estado" Type="SByte" />
+    <NavigationProperty Name="cliente" Relationship="Self.idClientes" FromRole="proyectos" ToRole="cliente" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="rank" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="photo" Type="String" MaxLength="55" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="idClientes">
+    <End Role="cliente" Type="Self.cliente" Multiplicity="1" />
+    <End Role="proyectos" Type="Self.proyecto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="cliente">
+        <PropertyRef Name="RUC" />
+      </Principal>
+      <Dependent Role="proyectos">
+        <PropertyRef Name="idCliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_id_EmpresaProveedor">
+    <End Role="empresa" Type="Self.empresa" Multiplicity="1" />
+    <End Role="proveedor" Type="Self.proveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empresa">
+        <PropertyRef Name="idEmpresa" />
+      </Principal>
+      <Dependent Role="proveedor">
+        <PropertyRef Name="id_EmpresaProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="NovaservitEntitiesDB" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clientes" EntityType="Self.cliente" />
+    <EntitySet Name="empresas" EntityType="Self.empresa" />
+    <EntitySet Name="proveedors" EntityType="Self.proveedor" />
+    <EntitySet Name="proyectos" EntityType="Self.proyecto" />
+    <EntitySet Name="usuarios" EntityType="Self.usuario" />
+    <AssociationSet Name="idClientes" Association="Self.idClientes">
+      <End Role="cliente" EntitySet="clientes" />
+      <End Role="proyectos" EntitySet="proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_id_EmpresaProveedor" Association="Self.FK_id_EmpresaProveedor">
+      <End Role="empresa" EntitySet="empresas" />
+      <End Role="proveedor" EntitySet="proveedors" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

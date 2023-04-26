@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DatabaseModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="cliente">
+    <Key>
+      <PropertyRef Name="RUC" />
+    </Key>
+    <Property Name="nombreEmpresa" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="proyectos" Relationship="Self.idClientes" FromRole="cliente" ToRole="proyectos" />
+    <Property Name="fechaRegistro" Type="DateTime" Nullable="false" />
+    <Property Name="RUC" Type="String" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="proveedor">
+    <Key>
+      <PropertyRef Name="idProveedor" />
+    </Key>
+    <Property Name="idProveedor" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="producto" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="costo" Type="Double" Nullable="false" />
+    <Property Name="plan_de_pago" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="id_EmpresaProveedor" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="empresa" Relationship="DatabaseModel.FK_IDProveedorEmpresa" FromRole="proveedor" ToRole="empresa" />
+  </EntityType>
+  <EntityType Name="proyecto">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="65535" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fecha_inicio" Type="DateTime" Nullable="false" />
+    <Property Name="costo" Type="Decimal" Nullable="false" />
+    <Property Name="idCliente" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="cliente" Relationship="Self.idClientes" FromRole="proyectos" ToRole="cliente" />
+    <Property Name="estado" Type="SByte" />
+  </EntityType>
+  <EntityType Name="usuario">
+    <Key>
+      <PropertyRef Name="idUsuario" />
+    </Key>
+    <Property Name="idUsuario" Type="Int32" Nullable="false" />
+    <Property Name="username" Type="String" MaxLength="45" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="rank" Type="Int32" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="photo" Type="String" MaxLength="55" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="empresa">
+    <Key>
+      <PropertyRef Name="idEmpresa" />
+    </Key>
+    <Property Name="idEmpresa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <NavigationProperty Name="proveedors" Relationship="DatabaseModel.FK_IDProveedorEmpresa" FromRole="empresa" ToRole="proveedor" />
+  </EntityType>
+  <Association Name="idClientes">
+    <End Type="Self.cliente" Multiplicity="1" Role="cliente" />
+    <End Type="Self.proyecto" Multiplicity="*" Role="proyectos" />
+    <ReferentialConstraint>
+      <Principal Role="cliente" />
+      <Dependent Role="proyectos" />
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DatabaseEntitiesNovaservit" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="clientes" EntityType="Self.cliente" />
+    <EntitySet Name="proveedors" EntityType="Self.proveedor" />
+    <EntitySet Name="proyectos" EntityType="Self.proyecto" />
+    <EntitySet Name="usuarios" EntityType="Self.usuario" />
+    <EntitySet Name="empresas" EntityType="Self.empresa" />
+    <AssociationSet Name="idClientes" Association="Self.idClientes">
+      <End EntitySet="clientes" Role="cliente" />
+      <End EntitySet="proyectos" Role="proyectos" />
+    </AssociationSet>
+    <AssociationSet Name="FK_IDProveedorEmpresa" Association="DatabaseModel.FK_IDProveedorEmpresa">
+      <End Role="empresa" EntitySet="empresas" />
+      <End Role="proveedor" EntitySet="proveedors" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK_IDProveedorEmpresa">
+    <End Type="DatabaseModel.empresa" Role="empresa" Multiplicity="1" />
+    <End Type="DatabaseModel.proveedor" Role="proveedor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="empresa">
+        <PropertyRef Name="idEmpresa" />
+      </Principal>
+      <Dependent Role="proveedor">
+        <PropertyRef Name="id_EmpresaProveedor" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
