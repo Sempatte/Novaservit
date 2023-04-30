@@ -558,6 +558,8 @@
     </Content>
     <None Include="Resources\cancelar.png" />
     <None Include="Resources\atras.png" />
+    <None Include="Resources\apreton-de-manos.png" />
+    <None Include="Resources\portada-servicio-al-cliente.png" />
     <Content Include="UPC_logo_transparente.ico" />
     <None Include="Resources\UPC_logo_transparente.png" />
   </ItemGroup>

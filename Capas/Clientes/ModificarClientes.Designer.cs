@@ -37,15 +37,17 @@ namespace Funda_Trabajo_Parcial
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.lblMessageErrorModificarCliente = new System.Windows.Forms.Label();
             this.lblSuccessModificarCliente = new System.Windows.Forms.Label();
             this.btnGuardarDatos = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.dataGridViewClienteEditables = new System.Windows.Forms.DataGridView();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnFechaRegistro = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.comboBoxListClientes = new Guna.UI2.WinForms.Guna2ComboBox();
             this.lblUserC = new System.Windows.Forms.Label();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClienteEditables)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,6 +59,7 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
             this.bunifuPanel1.BorderRadius = 0;
             this.bunifuPanel1.BorderThickness = 0;
+            this.bunifuPanel1.Controls.Add(this.guna2PictureBox1);
             this.bunifuPanel1.Controls.Add(this.lblMessageErrorModificarCliente);
             this.bunifuPanel1.Controls.Add(this.lblSuccessModificarCliente);
             this.bunifuPanel1.Controls.Add(this.btnGuardarDatos);
@@ -65,11 +68,25 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.lblUserC);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(1436, 715);
             this.bunifuPanel1.TabIndex = 0;
+            this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
+            // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.guna2PictureBox1.Image = global::Funda_Trabajo_Parcial.Properties.Resources.portada_servicio_al_cliente;
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(333, 201);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(597, 533);
+            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox1.TabIndex = 32;
+            this.guna2PictureBox1.TabStop = false;
             // 
             // lblMessageErrorModificarCliente
             // 
@@ -149,7 +166,7 @@ namespace Funda_Trabajo_Parcial
             this.btnGuardarDatos.IdleIconRightImage = null;
             this.btnGuardarDatos.IndicateFocus = false;
             this.btnGuardarDatos.Location = new System.Drawing.Point(1183, 652);
-            this.btnGuardarDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGuardarDatos.Margin = new System.Windows.Forms.Padding(4);
             this.btnGuardarDatos.Name = "btnGuardarDatos";
             this.btnGuardarDatos.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnGuardarDatos.OnDisabledState.BorderRadius = 30;
@@ -223,7 +240,7 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewClienteEditables.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewClienteEditables.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column3,
-            this.Column5});
+            this.ColumnFechaRegistro});
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10F);
@@ -234,7 +251,7 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewClienteEditables.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewClienteEditables.EnableHeadersVisualStyles = false;
             this.dataGridViewClienteEditables.Location = new System.Drawing.Point(16, 76);
-            this.dataGridViewClienteEditables.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridViewClienteEditables.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridViewClienteEditables.Name = "dataGridViewClienteEditables";
             this.dataGridViewClienteEditables.RowHeadersVisible = false;
             this.dataGridViewClienteEditables.RowHeadersWidth = 51;
@@ -244,6 +261,28 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewClienteEditables.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewClienteEditables.Size = new System.Drawing.Size(1413, 101);
             this.dataGridViewClienteEditables.TabIndex = 28;
+            this.dataGridViewClienteEditables.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewClienteEditables_CellClick);
+            // 
+            // Column3
+            // 
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.NullValue = null;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle3;
+            this.Column3.HeaderText = "Empresa";
+            this.Column3.MaxInputLength = 100;
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            // 
+            // ColumnFechaRegistro
+            // 
+            dataGridViewCellStyle4.Format = "d";
+            dataGridViewCellStyle4.NullValue = null;
+            this.ColumnFechaRegistro.DefaultCellStyle = dataGridViewCellStyle4;
+            this.ColumnFechaRegistro.FillWeight = 20F;
+            this.ColumnFechaRegistro.HeaderText = "Fecha Registro";
+            this.ColumnFechaRegistro.MaxInputLength = 17;
+            this.ColumnFechaRegistro.MinimumWidth = 6;
+            this.ColumnFechaRegistro.Name = "ColumnFechaRegistro";
             // 
             // comboBoxListClientes
             // 
@@ -258,7 +297,7 @@ namespace Funda_Trabajo_Parcial
             this.comboBoxListClientes.ForeColor = System.Drawing.Color.Black;
             this.comboBoxListClientes.ItemHeight = 17;
             this.comboBoxListClientes.Location = new System.Drawing.Point(113, 18);
-            this.comboBoxListClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxListClientes.Margin = new System.Windows.Forms.Padding(4);
             this.comboBoxListClientes.Name = "comboBoxListClientes";
             this.comboBoxListClientes.Size = new System.Drawing.Size(689, 23);
             this.comboBoxListClientes.TabIndex = 27;
@@ -277,38 +316,18 @@ namespace Funda_Trabajo_Parcial
             this.lblUserC.TabIndex = 25;
             this.lblUserC.Text = "Cliente:";
             // 
-            // Column3
-            // 
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.NullValue = null;
-            this.Column3.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Column3.HeaderText = "Empresa";
-            this.Column3.MaxInputLength = 100;
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            // 
-            // Column5
-            // 
-            dataGridViewCellStyle4.Format = "d";
-            dataGridViewCellStyle4.NullValue = null;
-            this.Column5.DefaultCellStyle = dataGridViewCellStyle4;
-            this.Column5.FillWeight = 20F;
-            this.Column5.HeaderText = "Fecha Registro";
-            this.Column5.MaxInputLength = 17;
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            // 
             // ModificarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ModificarClientes";
             this.Size = new System.Drawing.Size(1436, 715);
             this.Load += new System.EventHandler(this.ModificarClientes_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClienteEditables)).EndInit();
             this.ResumeLayout(false);
 
@@ -324,6 +343,7 @@ namespace Funda_Trabajo_Parcial
         private System.Windows.Forms.Label lblMessageErrorModificarCliente;
         private System.Windows.Forms.Label lblSuccessModificarCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnFechaRegistro;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
     }
 }
