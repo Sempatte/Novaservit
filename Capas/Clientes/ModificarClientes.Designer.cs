@@ -33,10 +33,9 @@ namespace Funda_Trabajo_Parcial
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
             this.lblMessageErrorModificarCliente = new System.Windows.Forms.Label();
             this.lblSuccessModificarCliente = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@ namespace Funda_Trabajo_Parcial
             this.lblUserC = new System.Windows.Forms.Label();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClienteEditables)).BeginInit();
             this.SuspendLayout();
@@ -67,9 +65,10 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.lblUserC);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1077, 581);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1436, 715);
             this.bunifuPanel1.TabIndex = 0;
             // 
             // lblMessageErrorModificarCliente
@@ -77,9 +76,10 @@ namespace Funda_Trabajo_Parcial
             this.lblMessageErrorModificarCliente.BackColor = System.Drawing.Color.Transparent;
             this.lblMessageErrorModificarCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblMessageErrorModificarCliente.ForeColor = System.Drawing.Color.Red;
-            this.lblMessageErrorModificarCliente.Location = new System.Drawing.Point(8, 536);
+            this.lblMessageErrorModificarCliente.Location = new System.Drawing.Point(11, 660);
+            this.lblMessageErrorModificarCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessageErrorModificarCliente.Name = "lblMessageErrorModificarCliente";
-            this.lblMessageErrorModificarCliente.Size = new System.Drawing.Size(440, 33);
+            this.lblMessageErrorModificarCliente.Size = new System.Drawing.Size(587, 41);
             this.lblMessageErrorModificarCliente.TabIndex = 31;
             this.lblMessageErrorModificarCliente.Text = "{MessageError}";
             this.lblMessageErrorModificarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,9 +90,10 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessModificarCliente.BackColor = System.Drawing.Color.Transparent;
             this.lblSuccessModificarCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblSuccessModificarCliente.ForeColor = System.Drawing.Color.Lime;
-            this.lblSuccessModificarCliente.Location = new System.Drawing.Point(6, 536);
+            this.lblSuccessModificarCliente.Location = new System.Drawing.Point(8, 660);
+            this.lblSuccessModificarCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSuccessModificarCliente.Name = "lblSuccessModificarCliente";
-            this.lblSuccessModificarCliente.Size = new System.Drawing.Size(440, 33);
+            this.lblSuccessModificarCliente.Size = new System.Drawing.Size(587, 41);
             this.lblSuccessModificarCliente.TabIndex = 30;
             this.lblSuccessModificarCliente.Text = "Cliente actualizado.";
             this.lblSuccessModificarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -147,7 +148,8 @@ namespace Funda_Trabajo_Parcial
             this.btnGuardarDatos.IdleIconLeftImage = null;
             this.btnGuardarDatos.IdleIconRightImage = null;
             this.btnGuardarDatos.IndicateFocus = false;
-            this.btnGuardarDatos.Location = new System.Drawing.Point(887, 530);
+            this.btnGuardarDatos.Location = new System.Drawing.Point(1183, 652);
+            this.btnGuardarDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnGuardarDatos.Name = "btnGuardarDatos";
             this.btnGuardarDatos.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnGuardarDatos.OnDisabledState.BorderRadius = 30;
@@ -181,7 +183,7 @@ namespace Funda_Trabajo_Parcial
             this.btnGuardarDatos.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnGuardarDatos.OnPressedState.IconLeftImage = null;
             this.btnGuardarDatos.OnPressedState.IconRightImage = null;
-            this.btnGuardarDatos.Size = new System.Drawing.Size(187, 39);
+            this.btnGuardarDatos.Size = new System.Drawing.Size(249, 48);
             this.btnGuardarDatos.TabIndex = 29;
             this.btnGuardarDatos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnGuardarDatos.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -221,25 +223,26 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewClienteEditables.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dataGridViewClienteEditables.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column3,
-            this.Column5,
-            this.Column4});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridViewClienteEditables.DefaultCellStyle = dataGridViewCellStyle6;
+            this.Column5});
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10F);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(31)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridViewClienteEditables.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewClienteEditables.EnableHeadersVisualStyles = false;
-            this.dataGridViewClienteEditables.Location = new System.Drawing.Point(12, 62);
+            this.dataGridViewClienteEditables.Location = new System.Drawing.Point(16, 76);
+            this.dataGridViewClienteEditables.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridViewClienteEditables.Name = "dataGridViewClienteEditables";
             this.dataGridViewClienteEditables.RowHeadersVisible = false;
+            this.dataGridViewClienteEditables.RowHeadersWidth = 51;
             this.dataGridViewClienteEditables.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.dataGridViewClienteEditables.RowTemplate.Height = 50;
             this.dataGridViewClienteEditables.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dataGridViewClienteEditables.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewClienteEditables.Size = new System.Drawing.Size(1060, 82);
+            this.dataGridViewClienteEditables.Size = new System.Drawing.Size(1413, 101);
             this.dataGridViewClienteEditables.TabIndex = 28;
             // 
             // comboBoxListClientes
@@ -251,16 +254,13 @@ namespace Funda_Trabajo_Parcial
             this.comboBoxListClientes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBoxListClientes.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.comboBoxListClientes.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.comboBoxListClientes.FocusedState.Parent = this.comboBoxListClientes;
             this.comboBoxListClientes.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.comboBoxListClientes.ForeColor = System.Drawing.Color.Black;
-            this.comboBoxListClientes.HoverState.Parent = this.comboBoxListClientes;
             this.comboBoxListClientes.ItemHeight = 17;
-            this.comboBoxListClientes.ItemsAppearance.Parent = this.comboBoxListClientes;
-            this.comboBoxListClientes.Location = new System.Drawing.Point(85, 15);
+            this.comboBoxListClientes.Location = new System.Drawing.Point(113, 18);
+            this.comboBoxListClientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBoxListClientes.Name = "comboBoxListClientes";
-            this.comboBoxListClientes.ShadowDecoration.Parent = this.comboBoxListClientes;
-            this.comboBoxListClientes.Size = new System.Drawing.Size(518, 23);
+            this.comboBoxListClientes.Size = new System.Drawing.Size(689, 23);
             this.comboBoxListClientes.TabIndex = 27;
             this.comboBoxListClientes.SelectedIndexChanged += new System.EventHandler(this.comboBoxListClientes_SelectedIndexChanged);
             // 
@@ -270,10 +270,10 @@ namespace Funda_Trabajo_Parcial
             this.lblUserC.BackColor = System.Drawing.Color.Transparent;
             this.lblUserC.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.lblUserC.ForeColor = System.Drawing.Color.White;
-            this.lblUserC.Location = new System.Drawing.Point(7, 13);
+            this.lblUserC.Location = new System.Drawing.Point(9, 16);
             this.lblUserC.Margin = new System.Windows.Forms.Padding(0);
             this.lblUserC.Name = "lblUserC";
-            this.lblUserC.Size = new System.Drawing.Size(75, 25);
+            this.lblUserC.Size = new System.Drawing.Size(89, 30);
             this.lblUserC.TabIndex = 25;
             this.lblUserC.Text = "Cliente:";
             // 
@@ -282,9 +282,9 @@ namespace Funda_Trabajo_Parcial
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.NullValue = null;
             this.Column3.DefaultCellStyle = dataGridViewCellStyle3;
-            this.Column3.FillWeight = 40F;
             this.Column3.HeaderText = "Empresa";
-            this.Column3.MaxInputLength = 40;
+            this.Column3.MaxInputLength = 100;
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column5
@@ -292,27 +292,20 @@ namespace Funda_Trabajo_Parcial
             dataGridViewCellStyle4.Format = "d";
             dataGridViewCellStyle4.NullValue = null;
             this.Column5.DefaultCellStyle = dataGridViewCellStyle4;
+            this.Column5.FillWeight = 20F;
             this.Column5.HeaderText = "Fecha Registro";
             this.Column5.MaxInputLength = 17;
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
-            // 
-            // Column4
-            // 
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle5.NullValue = null;
-            this.Column4.DefaultCellStyle = dataGridViewCellStyle5;
-            this.Column4.FillWeight = 70F;
-            this.Column4.HeaderText = "RUC";
-            this.Column4.MaxInputLength = 11;
-            this.Column4.Name = "Column4";
             // 
             // ModificarClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuPanel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "ModificarClientes";
-            this.Size = new System.Drawing.Size(1077, 581);
+            this.Size = new System.Drawing.Size(1436, 715);
             this.Load += new System.EventHandler(this.ModificarClientes_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
@@ -332,6 +325,5 @@ namespace Funda_Trabajo_Parcial
         private System.Windows.Forms.Label lblSuccessModificarCliente;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
     }
 }

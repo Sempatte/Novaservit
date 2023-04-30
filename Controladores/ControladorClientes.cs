@@ -28,12 +28,10 @@ namespace Funda_Trabajo_Parcial
             return Clientes;
         }
 
-        public static cliente GetCliente(string nombre_empresa_cliente)
+        public static cliente GetCliente(string NombreEmpresa)
         {
-            cliente Cliente = new cliente();
-            var _Cliente = Database.Main.clientes.SingleOrDefault(u => u.nombreEmpresa == nombre_empresa_cliente);
-            Cliente = _Cliente;
-            return Cliente;
+            cliente _Cliente = Database.Main.clientes.SingleOrDefault(u => u.nombreEmpresa.Contains(NombreEmpresa));
+            return _Cliente;
         }
 
 
@@ -76,18 +74,18 @@ namespace Funda_Trabajo_Parcial
 
         
 
-        public static void GuardarDatosCliente(string nombre_empresa, string nuevo_nombre_empresa, DateTime nuevo_fechaRegistro, Int64 nuevo_RUC)
+        public static void GuardarDatosCliente(cliente clienteModificado)
         {
             ModificarClientes._LblErrorMessage.Visible = false;
             ModificarClientes._LblSuccess.Visible = false;
 
             try
             {
-                var ClienteEmpresa = Database.Main.clientes.FirstOrDefault(s => s.nombreEmpresa == nombre_empresa);
+                var ClienteEmpresa = Database.Main.clientes.FirstOrDefault(s => s.RUC == clienteModificado.RUC);
 
-                ClienteEmpresa.nombreEmpresa = nuevo_nombre_empresa;
-                ClienteEmpresa.fechaRegistro = nuevo_fechaRegistro;
-                ClienteEmpresa.RUC = nuevo_RUC;
+                ClienteEmpresa.nombreEmpresa = clienteModificado.nombreEmpresa;
+                ClienteEmpresa.fechaRegistro = clienteModificado.fechaRegistro;
+                //ClienteEmpresa.RUC = clienteModificado.RUC;
                 Database.Main.Entry(ClienteEmpresa).State = EntityState.Modified;
                 Database.Main.SaveChanges();
                 ModificarClientes._LblSuccess.Visible = true;

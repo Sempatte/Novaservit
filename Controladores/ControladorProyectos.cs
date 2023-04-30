@@ -188,24 +188,18 @@ namespace Funda_Trabajo_Parcial
 
         }
 
-        public static void EditarProyecto(string nombre_proyecto, string nuevo_nombre_proyecto, DateTime NuevoFecha_inicio, decimal nuevoCosto, string NuevoEstado)
+        public static void EditarProyecto(proyecto _proyectoEditado)
         {
-            ModificarProyectos._LblErrorMessage.Visible = false;
-            ModificarProyectos._LblSuccess.Visible = false;
 
-            bool BoolNuevoEstado = false;
-
-            if (NuevoEstado == "Finalizado") BoolNuevoEstado = false;
-            else BoolNuevoEstado = true;
 
             try
             {
-                var Proyecto = Database.Main.proyectos.FirstOrDefault(s => s.nombre == nombre_proyecto);
+                var Proyecto = Database.Main.proyectos.FirstOrDefault(s => s.id == _proyectoEditado.id);
 
-                Proyecto.nombre = nuevo_nombre_proyecto;
-                Proyecto.fecha_inicio = NuevoFecha_inicio;
-                Proyecto.costo = nuevoCosto;
-                Proyecto.estado = BoolNuevoEstado;
+                Proyecto.nombre = _proyectoEditado.nombre;
+                Proyecto.fecha_inicio = _proyectoEditado.fecha_inicio;
+                Proyecto.costo = _proyectoEditado.costo;
+                Proyecto.estado = _proyectoEditado.estado;
 
                 Database.Main.Entry(Proyecto).State = EntityState.Modified;
                 Database.Main.SaveChanges();

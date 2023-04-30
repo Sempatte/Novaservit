@@ -11,9 +11,9 @@ namespace Funda_Trabajo_Parcial.Validators
     {
         public ClientValidator()
         {
-            RuleFor(x => x.nombreEmpresa).NotEmpty().MinimumLength(3);
+            RuleFor(x => x.nombreEmpresa).NotEmpty().MinimumLength(3).MaximumLength(40);
             RuleFor(x => x.RUC.ToString()).NotEmpty().WithMessage("Inserta un RUC válido.").MinimumLength(11).MaximumLength(11);
-            RuleFor(x => x.fechaRegistro).Must(ValidarFecha).WithMessage("La fecha debe ser menor a la actual");
+            RuleFor(x => x.fechaRegistro).Must(ValidarFecha).WithMessage("La fecha debe ser mayor a la actual");
         }
 
 
@@ -22,7 +22,7 @@ namespace Funda_Trabajo_Parcial.Validators
         {
             DateTime fechaActual = DateTime.Now;
 
-            if (fecha < fechaActual) return true;
+            if (fecha > fechaActual) return true;
             else return false;
         }
     }
