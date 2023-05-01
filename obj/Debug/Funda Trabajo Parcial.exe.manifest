@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Funda Trabajo Parcial.exe" size="672736">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Funda Trabajo Parcial.exe" size="670688">
       <assemblyIdentity name="Funda Trabajo Parcial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>adeTgj3rKRSVYYhAhhtTB6wkZO+syJwkacppu9eS37E=</dsig:DigestValue>
+        <dsig:DigestValue>wJjw1SSwLpCZUz3wlJ9CrAxWkDYRVsn2TxYaqVlCGVQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

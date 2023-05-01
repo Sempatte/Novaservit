@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E9AD31A5-A49A-4E76-BEF0-F502E446547B}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>Funda_Trabajo_Parcial</RootNamespace>
     <AssemblyName>Funda Trabajo Parcial</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>

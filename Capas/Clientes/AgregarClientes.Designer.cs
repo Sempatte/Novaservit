@@ -35,16 +35,14 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessClienteAgregado = new System.Windows.Forms.Label();
             this.btnAgregarDatos = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.datepickerFechaInicio = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.txtboxPrice = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtboxNombreProyecto = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblNombreProyecto = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.lblClienteEmpresa = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtboxRUC = new Guna.UI2.WinForms.Guna2TextBox();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -70,7 +68,7 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.groupBox1);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
             this.bunifuPanel1.Size = new System.Drawing.Size(1436, 715);
@@ -81,10 +79,10 @@ namespace Funda_Trabajo_Parcial
             this.lblMessageErrorClienteAgregado.BackColor = System.Drawing.Color.Transparent;
             this.lblMessageErrorClienteAgregado.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblMessageErrorClienteAgregado.ForeColor = System.Drawing.Color.Red;
-            this.lblMessageErrorClienteAgregado.Location = new System.Drawing.Point(16, 649);
+            this.lblMessageErrorClienteAgregado.Location = new System.Drawing.Point(11, 644);
             this.lblMessageErrorClienteAgregado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMessageErrorClienteAgregado.Name = "lblMessageErrorClienteAgregado";
-            this.lblMessageErrorClienteAgregado.Size = new System.Drawing.Size(1104, 41);
+            this.lblMessageErrorClienteAgregado.Size = new System.Drawing.Size(1104, 46);
             this.lblMessageErrorClienteAgregado.TabIndex = 24;
             this.lblMessageErrorClienteAgregado.Text = "{MessageError}";
             this.lblMessageErrorClienteAgregado.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -116,7 +114,7 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAgregarDatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnAgregarDatos.Location = new System.Drawing.Point(1128, 644);
-            this.btnAgregarDatos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregarDatos.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarDatos.Name = "btnAgregarDatos";
             this.btnAgregarDatos.Size = new System.Drawing.Size(267, 46);
             this.btnAgregarDatos.TabIndex = 7;
@@ -127,25 +125,63 @@ namespace Funda_Trabajo_Parcial
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.datepickerFechaInicio);
             this.groupBox2.Controls.Add(this.txtboxPrice);
             this.groupBox2.Controls.Add(this.txtboxNombreProyecto);
-            this.groupBox2.Controls.Add(this.lblNombreProyecto);
-            this.groupBox2.Controls.Add(this.bunifuLabel8);
-            this.groupBox2.Controls.Add(this.bunifuLabel2);
             this.groupBox2.Controls.Add(this.lblClienteEmpresa);
-            this.groupBox2.Controls.Add(this.bunifuLabel6);
-            this.groupBox2.Controls.Add(this.bunifuLabel5);
-            this.groupBox2.Controls.Add(this.bunifuLabel4);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox2.Location = new System.Drawing.Point(16, 239);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(1379, 357);
             this.groupBox2.TabIndex = 8;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos del proyecto";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label4.Location = new System.Drawing.Point(76, 188);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(164, 25);
+            this.label4.TabIndex = 25;
+            this.label4.Text = "Cliente / Empresa:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label3.Location = new System.Drawing.Point(138, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.TabIndex = 24;
+            this.label3.Text = "Costo (S/.):";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label2.Location = new System.Drawing.Point(45, 94);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(195, 25);
+            this.label2.TabIndex = 23;
+            this.label2.Text = "Nombre del proyecto:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label1.Location = new System.Drawing.Point(102, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(142, 25);
+            this.label1.TabIndex = 22;
+            this.label1.Text = "Fecha de Inicio:";
             // 
             // datepickerFechaInicio
             // 
@@ -155,8 +191,8 @@ namespace Funda_Trabajo_Parcial
             this.datepickerFechaInicio.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.datepickerFechaInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.datepickerFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.datepickerFechaInicio.Location = new System.Drawing.Point(239, 47);
-            this.datepickerFechaInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datepickerFechaInicio.Location = new System.Drawing.Point(265, 47);
+            this.datepickerFechaInicio.Margin = new System.Windows.Forms.Padding(4);
             this.datepickerFechaInicio.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.datepickerFechaInicio.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.datepickerFechaInicio.Name = "datepickerFechaInicio";
@@ -176,7 +212,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxPrice.Location = new System.Drawing.Point(239, 139);
+            this.txtboxPrice.Location = new System.Drawing.Point(265, 139);
             this.txtboxPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtboxPrice.Name = "txtboxPrice";
             this.txtboxPrice.PasswordChar = '\0';
@@ -199,7 +235,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreProyecto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreProyecto.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxNombreProyecto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxNombreProyecto.Location = new System.Drawing.Point(239, 94);
+            this.txtboxNombreProyecto.Location = new System.Drawing.Point(265, 94);
             this.txtboxNombreProyecto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtboxNombreProyecto.Name = "txtboxNombreProyecto";
             this.txtboxNombreProyecto.PasswordChar = '\0';
@@ -209,57 +245,6 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreProyecto.TabIndex = 18;
             this.txtboxNombreProyecto.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtboxNombreProyecto_KeyUp);
             // 
-            // lblNombreProyecto
-            // 
-            this.lblNombreProyecto.AllowParentOverrides = false;
-            this.lblNombreProyecto.AutoEllipsis = false;
-            this.lblNombreProyecto.AutoSize = false;
-            this.lblNombreProyecto.CursorType = null;
-            this.lblNombreProyecto.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lblNombreProyecto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblNombreProyecto.Location = new System.Drawing.Point(224, 234);
-            this.lblNombreProyecto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.lblNombreProyecto.Name = "lblNombreProyecto";
-            this.lblNombreProyecto.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblNombreProyecto.Size = new System.Drawing.Size(1148, 25);
-            this.lblNombreProyecto.TabIndex = 14;
-            this.lblNombreProyecto.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblNombreProyecto.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel8
-            // 
-            this.bunifuLabel8.AllowParentOverrides = false;
-            this.bunifuLabel8.AutoEllipsis = false;
-            this.bunifuLabel8.CursorType = null;
-            this.bunifuLabel8.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel8.Location = new System.Drawing.Point(21, 234);
-            this.bunifuLabel8.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuLabel8.Name = "bunifuLabel8";
-            this.bunifuLabel8.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel8.Size = new System.Drawing.Size(175, 25);
-            this.bunifuLabel8.TabIndex = 13;
-            this.bunifuLabel8.Text = "Nombre del proyecto:";
-            this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel2
-            // 
-            this.bunifuLabel2.AllowParentOverrides = false;
-            this.bunifuLabel2.AutoEllipsis = false;
-            this.bunifuLabel2.CursorType = null;
-            this.bunifuLabel2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel2.Location = new System.Drawing.Point(21, 94);
-            this.bunifuLabel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuLabel2.Name = "bunifuLabel2";
-            this.bunifuLabel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel2.Size = new System.Drawing.Size(175, 25);
-            this.bunifuLabel2.TabIndex = 3;
-            this.bunifuLabel2.Text = "Nombre del proyecto:";
-            this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // lblClienteEmpresa
             // 
             this.lblClienteEmpresa.AllowParentOverrides = false;
@@ -268,65 +253,15 @@ namespace Funda_Trabajo_Parcial
             this.lblClienteEmpresa.CursorType = null;
             this.lblClienteEmpresa.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.lblClienteEmpresa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblClienteEmpresa.Location = new System.Drawing.Point(224, 188);
-            this.lblClienteEmpresa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lblClienteEmpresa.Location = new System.Drawing.Point(265, 188);
+            this.lblClienteEmpresa.Margin = new System.Windows.Forms.Padding(4);
             this.lblClienteEmpresa.Name = "lblClienteEmpresa";
             this.lblClienteEmpresa.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblClienteEmpresa.Size = new System.Drawing.Size(1148, 25);
             this.lblClienteEmpresa.TabIndex = 12;
             this.lblClienteEmpresa.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.lblClienteEmpresa.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel6
-            // 
-            this.bunifuLabel6.AllowParentOverrides = false;
-            this.bunifuLabel6.AutoEllipsis = false;
-            this.bunifuLabel6.CursorType = null;
-            this.bunifuLabel6.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel6.Location = new System.Drawing.Point(52, 188);
-            this.bunifuLabel6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuLabel6.Name = "bunifuLabel6";
-            this.bunifuLabel6.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel6.Size = new System.Drawing.Size(142, 25);
-            this.bunifuLabel6.TabIndex = 11;
-            this.bunifuLabel6.Text = "Cliente / Empresa:";
-            this.bunifuLabel6.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel6.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel5
-            // 
-            this.bunifuLabel5.AllowParentOverrides = false;
-            this.bunifuLabel5.AutoEllipsis = false;
-            this.bunifuLabel5.CursorType = null;
-            this.bunifuLabel5.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel5.Location = new System.Drawing.Point(116, 139);
-            this.bunifuLabel5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuLabel5.Name = "bunifuLabel5";
-            this.bunifuLabel5.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel5.Size = new System.Drawing.Size(87, 25);
-            this.bunifuLabel5.TabIndex = 9;
-            this.bunifuLabel5.Text = "Costo (S/.):";
-            this.bunifuLabel5.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel5.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel4
-            // 
-            this.bunifuLabel4.AllowParentOverrides = false;
-            this.bunifuLabel4.AutoEllipsis = false;
-            this.bunifuLabel4.CursorType = null;
-            this.bunifuLabel4.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel4.Location = new System.Drawing.Point(81, 48);
-            this.bunifuLabel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.bunifuLabel4.Name = "bunifuLabel4";
-            this.bunifuLabel4.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel4.Size = new System.Drawing.Size(120, 25);
-            this.bunifuLabel4.TabIndex = 8;
-            this.bunifuLabel4.Text = "Fecha de inicio:";
-            this.bunifuLabel4.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel4.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.lblClienteEmpresa.Click += new System.EventHandler(this.lblClienteEmpresa_Click);
             // 
             // groupBox1
             // 
@@ -337,9 +272,9 @@ namespace Funda_Trabajo_Parcial
             this.groupBox1.Controls.Add(this.bunifuLabel1);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Location = new System.Drawing.Point(16, 31);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1379, 174);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
@@ -357,7 +292,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxRUC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxRUC.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxRUC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxRUC.Location = new System.Drawing.Point(273, 105);
+            this.txtboxRUC.Location = new System.Drawing.Point(265, 102);
             this.txtboxRUC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtboxRUC.Name = "txtboxRUC";
             this.txtboxRUC.PasswordChar = '\0';
@@ -374,8 +309,8 @@ namespace Funda_Trabajo_Parcial
             this.bunifuLabel3.CursorType = null;
             this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.bunifuLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel3.Location = new System.Drawing.Point(224, 108);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel3.Location = new System.Drawing.Point(202, 105);
+            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel3.Name = "bunifuLabel3";
             this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel3.Size = new System.Drawing.Size(38, 25);
@@ -396,7 +331,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreEmpresa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreEmpresa.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxNombreEmpresa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxNombreEmpresa.Location = new System.Drawing.Point(273, 54);
+            this.txtboxNombreEmpresa.Location = new System.Drawing.Point(265, 51);
             this.txtboxNombreEmpresa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtboxNombreEmpresa.Name = "txtboxNombreEmpresa";
             this.txtboxNombreEmpresa.PasswordChar = '\0';
@@ -415,7 +350,7 @@ namespace Funda_Trabajo_Parcial
             this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.bunifuLabel1.Location = new System.Drawing.Point(27, 54);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuLabel1.Name = "bunifuLabel1";
             this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel1.Size = new System.Drawing.Size(213, 25);
@@ -429,7 +364,7 @@ namespace Funda_Trabajo_Parcial
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AgregarClientes";
             this.Size = new System.Drawing.Size(1436, 715);
             this.bunifuPanel1.ResumeLayout(false);
@@ -446,22 +381,20 @@ namespace Funda_Trabajo_Parcial
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private System.Windows.Forms.Button btnAgregarDatos;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private Bunifu.UI.WinForms.BunifuLabel lblNombreProyecto;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
-        private Bunifu.UI.WinForms.BunifuLabel lblClienteEmpresa;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel6;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel5;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel4;
         private System.Windows.Forms.Label lblSuccessClienteAgregado;
         private System.Windows.Forms.Label lblMessageErrorClienteAgregado;
         private Guna.UI2.WinForms.Guna2TextBox txtboxNombreEmpresa;
         private Guna.UI2.WinForms.Guna2TextBox txtboxRUC;
-        private Guna.UI2.WinForms.Guna2TextBox txtboxNombreProyecto;
-        private Guna.UI2.WinForms.Guna2TextBox txtboxPrice;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private Guna.UI2.WinForms.Guna2DateTimePicker datepickerFechaInicio;
+        private Guna.UI2.WinForms.Guna2TextBox txtboxPrice;
+        private Guna.UI2.WinForms.Guna2TextBox txtboxNombreProyecto;
+        private Bunifu.UI.WinForms.BunifuLabel lblClienteEmpresa;
     }
 }

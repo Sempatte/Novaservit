@@ -26,12 +26,12 @@ namespace Funda_Trabajo_Parcial
             value = txtboxPrice.Text;
             style = NumberStyles.Number | NumberStyles.AllowCurrencySymbol;
             culture = CultureInfo.CreateSpecificCulture("es-PE");
-            //if (!Decimal.TryParse(value, style, culture, out currency))
-            //{
-            //    MessageBox.Show("Coloca una cantidad valida.", "Cantidad invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //    // prevent the textbox from losing focus
-            //    e.Cancel = true;
-            //}
+            if (!Decimal.TryParse(value, style, culture, out currency))
+            {
+                MessageBox.Show("Coloca una cantidad valida.", "Cantidad invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // prevent the textbox from losing focus
+                e.Cancel = true;
+            }
         }
 
         private void txtboxPrice_Validated(object sender, EventArgs e)
@@ -53,22 +53,22 @@ namespace Funda_Trabajo_Parcial
 
         private void txtboxNombreProyecto_KeyUp(object sender, KeyEventArgs e)
         {
-            lblNombreProyecto.Text = txtboxNombreProyecto.Text;
+           
         }
 
         private void txtboxRUC_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verify that the pressed key isn't CTRL or any non-numeric digit
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
-            {
-                e.Handled = true;
-            }
+            //if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            //{
+            //    e.Handled = true;
+            //}
 
-            // If you want, you can allow decimal (float) numbers
-            if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
-            {
-                e.Handled = true;
-            }
+            //// If you want, you can allow decimal (float) numbers
+            //if ((e.KeyChar == '.') && ((sender as TextBox).Text.IndexOf('.') > -1))
+            //{
+            //    e.Handled = true;
+            //}
         }
 
         public void ClearTextBoxes(ControlCollection ctrlCollection)
@@ -88,9 +88,9 @@ namespace Funda_Trabajo_Parcial
 
         private void btnAgregarDatos_Click(object sender, EventArgs e)
         {
-            
+            lblMessageErrorClienteAgregado.Visible = false;  
             lblSuccessClienteAgregado.Visible = false;
-            lblMessageErrorClienteAgregado.Visible = false;
+            
             string nombre_empresa_cliente = txtboxNombreEmpresa.Text;
             long RUC_parsed;
             long.TryParse(txtboxRUC.Text, out RUC_parsed);
@@ -109,22 +109,23 @@ namespace Funda_Trabajo_Parcial
 
             if (!result.IsValid)
             {
+                Console.WriteLine("Client invalid");
                 lblMessageErrorClienteAgregado.Visible = true;
                 foreach (var error in result.Errors)
                 {
-
-                    lblMessageErrorClienteAgregado.Text = error.ErrorMessage;
+                    Console.WriteLine("1", error.ErrorMessage);
+                    lblMessageErrorClienteAgregado.Text = error.PropertyName + " " +  error.ErrorMessage;
                 }
                 return;
             }
 
-            
-            decimal costo_proyecto = decimal.Parse(txtboxPrice.Text);
+            decimal priceParsed;
+            decimal.TryParse(txtboxPrice.Text, out priceParsed);
 
             proyecto newProject = new proyecto()
             {
                 cliente = newClient,
-                costo = costo_proyecto,
+                costo = priceParsed,
                 fecha_inicio = fechaInicio,
                 nombre = nombre_proyecto
             };
@@ -133,11 +134,12 @@ namespace Funda_Trabajo_Parcial
             ValidationResult result2 = validatorProject.Validate(newProject);
 
             if (!result2.IsValid)
-            {
+            { 
+                Console.WriteLine("Project invalid");
                 lblMessageErrorClienteAgregado.Visible = true;
-                foreach (var error in result.Errors)
+                foreach (var error in result2.Errors)
                 {
-
+                    Console.WriteLine("2", error.ErrorMessage);
                     lblMessageErrorClienteAgregado.Text = error.ErrorMessage;
                 }
                 return;
@@ -150,7 +152,11 @@ namespace Funda_Trabajo_Parcial
                 
             ClearTextBoxes(this.Controls);
             lblClienteEmpresa.Text = "";
-            lblNombreProyecto.Text = "";
+
+        }
+
+        private void lblClienteEmpresa_Click(object sender, EventArgs e)
+        {
 
         }
     }
