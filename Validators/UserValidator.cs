@@ -13,9 +13,9 @@ namespace Funda_Trabajo_Parcial.Validators
 
         public UserValidator()
         {
-            RuleFor(x => x.username).NotEmpty().MinimumLength(6).NotEqual("admin");
+            RuleFor(x => x.username).NotEmpty().MinimumLength(6).MaximumLength(14).NotEqual("admin");
             RuleFor(x => x.email).EmailAddress().NotNull();
-            RuleFor(x => x.password).NotEmpty().MinimumLength(8);
+            RuleFor(x => x.password).NotEmpty().MinimumLength(8).MaximumLength(20);
         }
     }
 }

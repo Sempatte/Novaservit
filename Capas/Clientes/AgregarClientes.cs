@@ -26,12 +26,12 @@ namespace Funda_Trabajo_Parcial
             value = txtboxPrice.Text;
             style = NumberStyles.Number | NumberStyles.AllowCurrencySymbol;
             culture = CultureInfo.CreateSpecificCulture("es-PE");
-            if (!Decimal.TryParse(value, style, culture, out currency))
-            {
-                MessageBox.Show("Coloca una cantidad valida.", "Cantidad invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                // prevent the textbox from losing focus
-                e.Cancel = true;
-            }
+            //if (!Decimal.TryParse(value, style, culture, out currency))
+            //{
+            //    MessageBox.Show("Coloca una cantidad valida.", "Cantidad invalida", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    // prevent the textbox from losing focus
+            //    e.Cancel = true;
+            //}
         }
 
         private void txtboxPrice_Validated(object sender, EventArgs e)
@@ -97,15 +97,15 @@ namespace Funda_Trabajo_Parcial
             string nombre_proyecto = txtboxNombreProyecto.Text;   
             DateTime fechaInicio = datepickerFechaInicio.Value.Date;
 
-            var nuevoCliente = new cliente()
+            var newClient = new cliente()
             {
-                fechaRegistro = fechaInicio,
+                fechaRegistro = DateTime.Now,
                 nombreEmpresa = nombre_empresa_cliente,
                 RUC = RUC_parsed,
             };
 
             var validator = new ClientValidator();
-            ValidationResult result = validator.Validate(nuevoCliente);
+            ValidationResult result = validator.Validate(newClient);
 
             if (!result.IsValid)
             {
@@ -118,38 +118,40 @@ namespace Funda_Trabajo_Parcial
                 return;
             }
 
-            //if(string.IsNullOrEmpty(nombre_empresa_cliente) || string.IsNullOrEmpty(RUC) || string.IsNullOrEmpty(nombre_proyecto) || string.IsNullOrEmpty(txtboxPrice.Text.ToString()))
-            //{
-            //    //MessageBox.Show("Llene todos los campos.", "Alerta", MessageBoxButtons.OK);
-            //    lblMessageErrorClienteAgregado.Visible = true;
-            //    lblMessageErrorClienteAgregado.Text = "Llene todos los campos.";
-            //    return;
-            //}
-
-            //if (RUC.ToString().Length != 11) {
-            //    //MessageBox.Show("Inserte un RUC válido.", "Alerta", MessageBoxButtons.OK);
-            //    lblMessageErrorClienteAgregado.Visible = true;
-            //    lblMessageErrorClienteAgregado.Text = "Inserte un RUC válido.";
-            //    return;
-            //}
             
             decimal costo_proyecto = decimal.Parse(txtboxPrice.Text);
 
-            var response = ControladorClientes.AddProjectAndClient(nombre_empresa_cliente, RUC_parsed, nombre_proyecto, costo_proyecto, fechaInicio);
-            if (response.Length > 0){
-                lblSuccessClienteAgregado.Visible = false;
-                lblMessageErrorClienteAgregado.Visible = true;
-                lblMessageErrorClienteAgregado.Text = response;
-            }
-            else
+            proyecto newProject = new proyecto()
             {
-                lblSuccessClienteAgregado.Visible = true;
+                cliente = newClient,
+                costo = costo_proyecto,
+                fecha_inicio = fechaInicio,
+                nombre = nombre_proyecto
+            };
 
-                lblMessageErrorClienteAgregado.Visible = false;
-                ClearTextBoxes(this.Controls);
-                lblClienteEmpresa.Text = "";
-                lblNombreProyecto.Text = "";
+            var validatorProject = new ProjectValidator();
+            ValidationResult result2 = validatorProject.Validate(newProject);
+
+            if (!result2.IsValid)
+            {
+                lblMessageErrorClienteAgregado.Visible = true;
+                foreach (var error in result.Errors)
+                {
+
+                    lblMessageErrorClienteAgregado.Text = error.ErrorMessage;
+                }
+                return;
             }
+
+            ControladorClientes.AddProjectAndClient(newClient, newProject);
+
+          
+            lblSuccessClienteAgregado.Visible = true;
+                
+            ClearTextBoxes(this.Controls);
+            lblClienteEmpresa.Text = "";
+            lblNombreProyecto.Text = "";
+
         }
     }
 }

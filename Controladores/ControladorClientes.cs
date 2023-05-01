@@ -105,26 +105,14 @@ namespace Funda_Trabajo_Parcial
 
         }
 
-        public static string AddProjectAndClient(string nombre_empresa_cliente, Int64 RUC, string nombre_proyecto, decimal costo_proyecto ,DateTime fechaInicio)
+        public static void AddProjectAndClient(cliente Cliente, proyecto Proyecto)
         {
-            cliente Cliente = new cliente();
-            Cliente.nombreEmpresa = nombre_empresa_cliente;
-            Cliente.fechaRegistro = DateTime.Now.Date;
-            Cliente.RUC = RUC;
-            Database.Main.clientes.Add(Cliente);
 
-            proyecto Proyecto = new proyecto();
-            Proyecto.cliente = Cliente;
-            Proyecto.nombre = nombre_proyecto;
-            Proyecto.fecha_inicio = fechaInicio.Date;
-            Proyecto.costo = costo_proyecto;
+            Database.Main.clientes.Add(Cliente);
             Proyecto.estado = true;
 
             Database.Main.proyectos.Add(Proyecto);
-
             Database.Main.SaveChanges();
-
-            return "";
         }
 
         public static void ActualizarTablaClientes()
