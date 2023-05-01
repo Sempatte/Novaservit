@@ -81,8 +81,8 @@ namespace Funda_Trabajo_Parcial
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Funda_Trabajo_Parcial.Properties.Resources.undraw_Engineering_team_a7n2_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(387, 368);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(384, 370);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(517, 285);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -105,7 +105,7 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.Name = "btnAgregarDatos";
             this.btnAgregarDatos.Size = new System.Drawing.Size(267, 46);
             this.btnAgregarDatos.TabIndex = 25;
-            this.btnAgregarDatos.Text = "Agregar Datos";
+            this.btnAgregarDatos.Text = "Agregar proyecto";
             this.btnAgregarDatos.UseVisualStyleBackColor = false;
             this.btnAgregarDatos.Click += new System.EventHandler(this.btnAgregarDatos_Click);
             // 
@@ -198,6 +198,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtboxPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtboxPrice.ForeColor = System.Drawing.Color.Black;
             this.txtboxPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxPrice.Location = new System.Drawing.Point(265, 139);
             this.txtboxPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -221,6 +222,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreProyecto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtboxNombreProyecto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreProyecto.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtboxNombreProyecto.ForeColor = System.Drawing.Color.Black;
             this.txtboxNombreProyecto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreProyecto.Location = new System.Drawing.Point(265, 94);
             this.txtboxNombreProyecto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);

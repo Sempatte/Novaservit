@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E9AD31A5-A49A-4E76-BEF0-F502E446547B}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>Funda_Trabajo_Parcial</RootNamespace>
     <AssemblyName>Funda Trabajo Parcial</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
@@ -574,6 +574,7 @@
     <None Include="Resources\undraw_Engineering_team_a7n21.png" />
     <None Include="Resources\undraw_Engineering_team_a7n2-removebg-preview1.png" />
     <None Include="Resources\undraw_Engineering_team_a7n2-removebg-preview.png" />
+    <None Include="Resources\undraw_Interview_re_e5jn-removebg-preview.png" />
     <Content Include="UPC_logo_transparente.ico" />
     <None Include="Resources\UPC_logo_transparente.png" />
   </ItemGroup>

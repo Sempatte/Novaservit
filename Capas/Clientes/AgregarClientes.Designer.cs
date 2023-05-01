@@ -35,12 +35,14 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessClienteAgregado = new System.Windows.Forms.Label();
             this.btnAgregarDatos = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.txtboxRUC = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtboxNombreEmpresa = new Guna.UI2.WinForms.Guna2TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bunifuPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // bunifuPanel1
@@ -51,6 +53,7 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
             this.bunifuPanel1.BorderRadius = 0;
             this.bunifuPanel1.BorderThickness = 0;
+            this.bunifuPanel1.Controls.Add(this.pictureBox1);
             this.bunifuPanel1.Controls.Add(this.lblMessageErrorClienteAgregado);
             this.bunifuPanel1.Controls.Add(this.lblSuccessClienteAgregado);
             this.bunifuPanel1.Controls.Add(this.btnAgregarDatos);
@@ -128,6 +131,26 @@ namespace Funda_Trabajo_Parcial
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del cliente";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label2.Location = new System.Drawing.Point(206, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 25);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "RUC:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label1.Location = new System.Drawing.Point(20, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(238, 25);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Nombre Empresa / Cliente:";
+            // 
             // txtboxRUC
             // 
             this.txtboxRUC.Animated = true;
@@ -139,6 +162,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxRUC.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtboxRUC.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxRUC.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtboxRUC.ForeColor = System.Drawing.Color.Black;
             this.txtboxRUC.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxRUC.Location = new System.Drawing.Point(265, 102);
             this.txtboxRUC.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -161,6 +185,7 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreEmpresa.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.txtboxNombreEmpresa.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreEmpresa.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtboxNombreEmpresa.ForeColor = System.Drawing.Color.Black;
             this.txtboxNombreEmpresa.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.txtboxNombreEmpresa.Location = new System.Drawing.Point(265, 51);
             this.txtboxNombreEmpresa.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -172,25 +197,15 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreEmpresa.TabIndex = 16;
             this.txtboxNombreEmpresa.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtboxNombreEmpresa_KeyUp);
             // 
-            // label1
+            // pictureBox1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label1.Location = new System.Drawing.Point(20, 54);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(238, 25);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "Nombre Empresa / Cliente:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label2.Location = new System.Drawing.Point(206, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 25);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "RUC:";
+            this.pictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.pictureBox1.Image = global::Funda_Trabajo_Parcial.Properties.Resources.undraw_Engineering_team_a7n2_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(400, 322);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(646, 324);
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
             // 
             // AgregarClientes
             // 
@@ -203,6 +218,7 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -218,5 +234,6 @@ namespace Funda_Trabajo_Parcial
         private Guna.UI2.WinForms.Guna2TextBox txtboxRUC;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
