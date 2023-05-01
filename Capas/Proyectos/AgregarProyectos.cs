@@ -109,14 +109,14 @@ namespace Funda_Trabajo_Parcial
             string nombre_proyecto = txtboxNombreProyecto.Text;   
             DateTime fechaInicio = datepickerFechaInicio.Value.Date;
 
-            Console.WriteLine(ClienteCombobox.ToString());
 
             proyecto newProject = new proyecto()
             {
                 idCliente = ClienteCombobox.RUC,
                 costo = priceParsed,
                 fecha_inicio = fechaInicio,
-                nombre = nombre_proyecto
+                nombre = nombre_proyecto,
+                estado = true
             };
 
             var validatorProject = new ProjectValidator();

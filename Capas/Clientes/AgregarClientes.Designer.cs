@@ -36,9 +36,9 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtboxRUC = new Guna.UI2.WinForms.Guna2TextBox();
-            this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.txtboxNombreEmpresa = new Guna.UI2.WinForms.Guna2TextBox();
-            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -107,17 +107,17 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.Name = "btnAgregarDatos";
             this.btnAgregarDatos.Size = new System.Drawing.Size(267, 46);
             this.btnAgregarDatos.TabIndex = 7;
-            this.btnAgregarDatos.Text = "Agregar Datos";
+            this.btnAgregarDatos.Text = "Agregar cliente";
             this.btnAgregarDatos.UseVisualStyleBackColor = false;
             this.btnAgregarDatos.Click += new System.EventHandler(this.btnAgregarDatos_Click);
             // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.txtboxRUC);
-            this.groupBox1.Controls.Add(this.bunifuLabel3);
             this.groupBox1.Controls.Add(this.txtboxNombreEmpresa);
-            this.groupBox1.Controls.Add(this.bunifuLabel1);
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Location = new System.Drawing.Point(16, 31);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -150,23 +150,6 @@ namespace Funda_Trabajo_Parcial
             this.txtboxRUC.TabIndex = 17;
             this.txtboxRUC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtboxRUC_KeyPress);
             // 
-            // bunifuLabel3
-            // 
-            this.bunifuLabel3.AllowParentOverrides = false;
-            this.bunifuLabel3.AutoEllipsis = false;
-            this.bunifuLabel3.CursorType = null;
-            this.bunifuLabel3.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel3.Location = new System.Drawing.Point(202, 105);
-            this.bunifuLabel3.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuLabel3.Name = "bunifuLabel3";
-            this.bunifuLabel3.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel3.Size = new System.Drawing.Size(38, 25);
-            this.bunifuLabel3.TabIndex = 5;
-            this.bunifuLabel3.Text = "RUC:";
-            this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // txtboxNombreEmpresa
             // 
             this.txtboxNombreEmpresa.Animated = true;
@@ -189,23 +172,25 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreEmpresa.TabIndex = 16;
             this.txtboxNombreEmpresa.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtboxNombreEmpresa_KeyUp);
             // 
-            // bunifuLabel1
+            // label1
             // 
-            this.bunifuLabel1.AllowParentOverrides = false;
-            this.bunifuLabel1.AutoEllipsis = false;
-            this.bunifuLabel1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
-            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.bunifuLabel1.Location = new System.Drawing.Point(27, 54);
-            this.bunifuLabel1.Margin = new System.Windows.Forms.Padding(4);
-            this.bunifuLabel1.Name = "bunifuLabel1";
-            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel1.Size = new System.Drawing.Size(213, 25);
-            this.bunifuLabel1.TabIndex = 1;
-            this.bunifuLabel1.Text = "Nombre Empresa / Cliente:";
-            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label1.Location = new System.Drawing.Point(20, 54);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(238, 25);
+            this.label1.TabIndex = 25;
+            this.label1.Text = "Nombre Empresa / Cliente:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
+            this.label2.Location = new System.Drawing.Point(206, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 25);
+            this.label2.TabIndex = 26;
+            this.label2.Text = "RUC:";
             // 
             // AgregarClientes
             // 
@@ -226,12 +211,12 @@ namespace Funda_Trabajo_Parcial
 
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel3;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private System.Windows.Forms.Button btnAgregarDatos;
         private System.Windows.Forms.Label lblSuccessClienteAgregado;
         private System.Windows.Forms.Label lblMessageErrorClienteAgregado;
         private Guna.UI2.WinForms.Guna2TextBox txtboxNombreEmpresa;
         private Guna.UI2.WinForms.Guna2TextBox txtboxRUC;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

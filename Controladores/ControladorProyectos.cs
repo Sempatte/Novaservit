@@ -222,9 +222,7 @@ namespace Funda_Trabajo_Parcial
 
         public static void AgregarProyecto(proyecto Proyecto)
         {
-            Console.WriteLine(Proyecto.ToString());
-            Database.Main.proyectos.Add(Proyecto); // TO DO: Los proyectos no pueden tener un ID cliente igual
-
+            Database.Main.proyectos.Add(Proyecto); 
             Database.Main.SaveChanges();
         }
     }
