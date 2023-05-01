@@ -713,3 +713,4 @@ D:\Users\sebas\Documentos\Funda Trabajo Parcial\bin\Debug\Funda Trabajo Parcial.
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\bin\Debug\Funda Trabajo Parcial.application
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda Trabajo Parcial.exe.manifest
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda Trabajo Parcial.application
+D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda_Trabajo_Parcial.AgregarProyectos.resources

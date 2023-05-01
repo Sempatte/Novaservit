@@ -329,6 +329,12 @@
     <Compile Include="Capas\Extras.Designer.cs">
       <DependentUpon>Extras.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capas\Proyectos\AgregarProyectos.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Capas\Proyectos\AgregarProyectos.Designer.cs">
+      <DependentUpon>AgregarProyectos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Capas\Proyectos\ListarProyectos.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -445,6 +451,9 @@
     <Compile Include="Validators\UserValidator.cs" />
     <EmbeddedResource Include="Capas\Extras.resx">
       <DependentUpon>Extras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capas\Proyectos\AgregarProyectos.resx">
+      <DependentUpon>AgregarProyectos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Capas\Proyectos\ListarProyectos.resx">
       <DependentUpon>ListarProyectos.cs</DependentUpon>

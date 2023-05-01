@@ -103,6 +103,7 @@ namespace Funda_Trabajo_Parcial
             }
 
             ControladorClientes.GuardarDatosCliente(clienteModificado);
+            lblSuccessModificarCliente.Visible = true;
             ActualizarCombobox();
 
 

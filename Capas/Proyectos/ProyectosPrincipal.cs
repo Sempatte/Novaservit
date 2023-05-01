@@ -40,5 +40,16 @@ namespace Funda_Trabajo_Parcial
             ModificarProyectos ModificarProyectosUI = new ModificarProyectos();
             addUserControl(ModificarProyectosUI);
         }
+
+        private void panelCentroProyectosMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnAgregarProyectos_Click(object sender, EventArgs e)
+        {
+            AgregarProyectos AgregarProyectosUI = new AgregarProyectos();
+            addUserControl(AgregarProyectosUI);
+        }
     }
 }

@@ -14,17 +14,30 @@ namespace Funda_Trabajo_Parcial
         public static List<cliente> GetListaClientes()
         {
             List<cliente> Clientes = new List<cliente>();
-            var userData = (from oData in Database.Main.clientes
-                            select oData);
-            foreach (var user in userData)
+            try
             {
-                cliente Cliente = new cliente();
-                Cliente.nombreEmpresa = user.nombreEmpresa;
-                Cliente.fechaRegistro = user.fechaRegistro;
-                Cliente.RUC = user.RUC;
-                
-                Clientes.Add(Cliente);
+
+                var userData = (from oData in Database.Main.clientes
+                                select oData);
+                foreach (var user in userData)
+                {
+                    cliente Cliente = new cliente();
+                    Cliente.nombreEmpresa = user.nombreEmpresa;
+                    Cliente.fechaRegistro = user.fechaRegistro;
+                    Cliente.RUC = user.RUC;
+
+                    Clientes.Add(Cliente);
+                }
             }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine("GetListaClientes() Retrying...");
+                Thread.Sleep(600);
+                GetListaClientes();
+            }
+
+
             return Clientes;
         }
 
@@ -105,13 +118,12 @@ namespace Funda_Trabajo_Parcial
 
         }
 
-        public static void AddProjectAndClient(cliente Cliente, proyecto Proyecto)
+        public static void AddCliente(cliente Cliente)
         {
 
             Database.Main.clientes.Add(Cliente);
-            Proyecto.estado = true;
+  
 
-            Database.Main.proyectos.Add(Proyecto);
             Database.Main.SaveChanges();
         }
 

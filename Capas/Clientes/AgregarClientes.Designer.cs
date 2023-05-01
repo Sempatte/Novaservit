@@ -34,22 +34,12 @@ namespace Funda_Trabajo_Parcial
             this.lblMessageErrorClienteAgregado = new System.Windows.Forms.Label();
             this.lblSuccessClienteAgregado = new System.Windows.Forms.Label();
             this.btnAgregarDatos = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.datepickerFechaInicio = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.txtboxPrice = new Guna.UI2.WinForms.Guna2TextBox();
-            this.txtboxNombreProyecto = new Guna.UI2.WinForms.Guna2TextBox();
-            this.lblClienteEmpresa = new Bunifu.UI.WinForms.BunifuLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.txtboxRUC = new Guna.UI2.WinForms.Guna2TextBox();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.txtboxNombreEmpresa = new Guna.UI2.WinForms.Guna2TextBox();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuPanel1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -64,7 +54,6 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.lblMessageErrorClienteAgregado);
             this.bunifuPanel1.Controls.Add(this.lblSuccessClienteAgregado);
             this.bunifuPanel1.Controls.Add(this.btnAgregarDatos);
-            this.bunifuPanel1.Controls.Add(this.groupBox2);
             this.bunifuPanel1.Controls.Add(this.groupBox1);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
@@ -113,7 +102,7 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.Font = new System.Drawing.Font("Segoe UI Semibold", 10.75F, System.Drawing.FontStyle.Bold);
             this.btnAgregarDatos.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAgregarDatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarDatos.Location = new System.Drawing.Point(1128, 644);
+            this.btnAgregarDatos.Location = new System.Drawing.Point(1128, 252);
             this.btnAgregarDatos.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarDatos.Name = "btnAgregarDatos";
             this.btnAgregarDatos.Size = new System.Drawing.Size(267, 46);
@@ -121,147 +110,6 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.Text = "Agregar Datos";
             this.btnAgregarDatos.UseVisualStyleBackColor = false;
             this.btnAgregarDatos.Click += new System.EventHandler(this.btnAgregarDatos_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
-            this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Controls.Add(this.datepickerFechaInicio);
-            this.groupBox2.Controls.Add(this.txtboxPrice);
-            this.groupBox2.Controls.Add(this.txtboxNombreProyecto);
-            this.groupBox2.Controls.Add(this.lblClienteEmpresa);
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox2.Location = new System.Drawing.Point(16, 239);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(1379, 357);
-            this.groupBox2.TabIndex = 8;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Datos del proyecto";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label4.Location = new System.Drawing.Point(76, 188);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(164, 25);
-            this.label4.TabIndex = 25;
-            this.label4.Text = "Cliente / Empresa:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label3.Location = new System.Drawing.Point(138, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
-            this.label3.TabIndex = 24;
-            this.label3.Text = "Costo (S/.):";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label2.Location = new System.Drawing.Point(45, 94);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 25);
-            this.label2.TabIndex = 23;
-            this.label2.Text = "Nombre del proyecto:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label1.Location = new System.Drawing.Point(102, 47);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 25);
-            this.label1.TabIndex = 22;
-            this.label1.Text = "Fecha de Inicio:";
-            // 
-            // datepickerFechaInicio
-            // 
-            this.datepickerFechaInicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.datepickerFechaInicio.Checked = true;
-            this.datepickerFechaInicio.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.datepickerFechaInicio.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.datepickerFechaInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.datepickerFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.datepickerFechaInicio.Location = new System.Drawing.Point(265, 47);
-            this.datepickerFechaInicio.Margin = new System.Windows.Forms.Padding(4);
-            this.datepickerFechaInicio.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.datepickerFechaInicio.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.datepickerFechaInicio.Name = "datepickerFechaInicio";
-            this.datepickerFechaInicio.Size = new System.Drawing.Size(301, 31);
-            this.datepickerFechaInicio.TabIndex = 20;
-            this.datepickerFechaInicio.Value = new System.DateTime(2023, 4, 19, 16, 44, 51, 132);
-            // 
-            // txtboxPrice
-            // 
-            this.txtboxPrice.Animated = true;
-            this.txtboxPrice.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtboxPrice.DefaultText = "";
-            this.txtboxPrice.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtboxPrice.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtboxPrice.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtboxPrice.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtboxPrice.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtboxPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxPrice.Location = new System.Drawing.Point(265, 139);
-            this.txtboxPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtboxPrice.Name = "txtboxPrice";
-            this.txtboxPrice.PasswordChar = '\0';
-            this.txtboxPrice.PlaceholderText = "8700.40";
-            this.txtboxPrice.SelectedText = "";
-            this.txtboxPrice.Size = new System.Drawing.Size(87, 28);
-            this.txtboxPrice.TabIndex = 19;
-            this.txtboxPrice.Validating += new System.ComponentModel.CancelEventHandler(this.txtboxPrice_Validating);
-            this.txtboxPrice.Validated += new System.EventHandler(this.txtboxPrice_Validated);
-            // 
-            // txtboxNombreProyecto
-            // 
-            this.txtboxNombreProyecto.Animated = true;
-            this.txtboxNombreProyecto.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtboxNombreProyecto.DefaultText = "";
-            this.txtboxNombreProyecto.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtboxNombreProyecto.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtboxNombreProyecto.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtboxNombreProyecto.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtboxNombreProyecto.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxNombreProyecto.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtboxNombreProyecto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxNombreProyecto.Location = new System.Drawing.Point(265, 94);
-            this.txtboxNombreProyecto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtboxNombreProyecto.Name = "txtboxNombreProyecto";
-            this.txtboxNombreProyecto.PasswordChar = '\0';
-            this.txtboxNombreProyecto.PlaceholderText = "Elaboración Landing Page";
-            this.txtboxNombreProyecto.SelectedText = "";
-            this.txtboxNombreProyecto.Size = new System.Drawing.Size(267, 28);
-            this.txtboxNombreProyecto.TabIndex = 18;
-            this.txtboxNombreProyecto.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtboxNombreProyecto_KeyUp);
-            // 
-            // lblClienteEmpresa
-            // 
-            this.lblClienteEmpresa.AllowParentOverrides = false;
-            this.lblClienteEmpresa.AutoEllipsis = false;
-            this.lblClienteEmpresa.AutoSize = false;
-            this.lblClienteEmpresa.CursorType = null;
-            this.lblClienteEmpresa.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.lblClienteEmpresa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblClienteEmpresa.Location = new System.Drawing.Point(265, 188);
-            this.lblClienteEmpresa.Margin = new System.Windows.Forms.Padding(4);
-            this.lblClienteEmpresa.Name = "lblClienteEmpresa";
-            this.lblClienteEmpresa.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.lblClienteEmpresa.Size = new System.Drawing.Size(1148, 25);
-            this.lblClienteEmpresa.TabIndex = 12;
-            this.lblClienteEmpresa.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.lblClienteEmpresa.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            this.lblClienteEmpresa.Click += new System.EventHandler(this.lblClienteEmpresa_Click);
             // 
             // groupBox1
             // 
@@ -368,8 +216,6 @@ namespace Funda_Trabajo_Parcial
             this.Name = "AgregarClientes";
             this.Size = new System.Drawing.Size(1436, 715);
             this.bunifuPanel1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -387,14 +233,5 @@ namespace Funda_Trabajo_Parcial
         private System.Windows.Forms.Label lblMessageErrorClienteAgregado;
         private Guna.UI2.WinForms.Guna2TextBox txtboxNombreEmpresa;
         private Guna.UI2.WinForms.Guna2TextBox txtboxRUC;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker datepickerFechaInicio;
-        private Guna.UI2.WinForms.Guna2TextBox txtboxPrice;
-        private Guna.UI2.WinForms.Guna2TextBox txtboxNombreProyecto;
-        private Bunifu.UI.WinForms.BunifuLabel lblClienteEmpresa;
     }
 }
