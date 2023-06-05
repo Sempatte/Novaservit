@@ -714,3 +714,188 @@ D:\Users\sebas\Documentos\Funda Trabajo Parcial\bin\Debug\Funda Trabajo Parcial.
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda Trabajo Parcial.exe.manifest
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda Trabajo Parcial.application
 D:\Users\sebas\Documentos\Funda Trabajo Parcial\obj\Debug\Funda_Trabajo_Parcial.AgregarProyectos.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Funda Trabajo Parcial.exe.config
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Funda Trabajo Parcial.exe.manifest
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Funda Trabajo Parcial.application
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Funda Trabajo Parcial.exe
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Funda Trabajo Parcial.pdb
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Data.Common.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Globalization.Extensions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.IO.Compression.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Net.Http.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Net.Sockets.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Security.SecureString.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Threading.Overlapped.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\BouncyCastle.Crypto.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.Licensing.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\EntityFramework.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\EntityFramework.SqlServer.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\FluentFTP.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\FluentValidation.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Google.Protobuf.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Guna.UI2.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Compression.LZ4.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Hash.xxHash.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Bcl.HashCode.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Options.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySql.Data.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySql.Data.EntityFramework.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySqlConnector.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Renci.SshNet.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Buffers.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Collections.Immutable.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.ComponentModel.Annotations.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Memory.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Numerics.Vectors.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Ubiety.Dns.Core.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\ZstdNet.dll
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\EntityFramework.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\EntityFramework.SqlServer.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\FluentFTP.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\FluentValidation.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Google.Protobuf.pdb
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Google.Protobuf.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Compression.LZ4.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\K4os.Hash.xxHash.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Bcl.HashCode.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Logging.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Options.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySql.Data.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySql.Data.EntityFramework.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\MySqlConnector.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\Renci.SshNet.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Buffers.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Collections.Immutable.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Memory.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Numerics.Vectors.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.csproj.AssemblyReference.cache
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.exe.config
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Extras.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.AgregarProyectos.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.ListarProyectos.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.ModificarProyectos.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.ProyectosPrincipal.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.ModificarClientes.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.AgregarClientes.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.ListarTodosLosClientes.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Config.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Clientes.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Inicio.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Registro.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.InicioDeSesion.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.MenuPrincipal.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda_Trabajo_Parcial.Properties.Resources.resources
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.csproj.GenerateResource.cache
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.exe.licenses
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.csproj.CoreCompileInputs.cache
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.exe.manifest
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.application
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.csproj.CopyComplete
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.exe
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.pdb
+D:\Users\sebas\Documents\Funda Trabajo Parcial\novaservit_final\Novaservit\obj\Debug\Funda Trabajo Parcial.csproj.SuggestedBindingRedirects.cache

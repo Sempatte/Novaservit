@@ -68,10 +68,9 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.lblUserC);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1436, 715);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1077, 581);
             this.bunifuPanel1.TabIndex = 0;
             this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
             // 
@@ -81,9 +80,10 @@ namespace Funda_Trabajo_Parcial
             this.guna2PictureBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
             this.guna2PictureBox1.Image = global::Funda_Trabajo_Parcial.Properties.Resources.portada_servicio_al_cliente;
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(333, 201);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(355, 184);
+            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(597, 533);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(392, 350);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.guna2PictureBox1.TabIndex = 32;
             this.guna2PictureBox1.TabStop = false;
@@ -93,10 +93,9 @@ namespace Funda_Trabajo_Parcial
             this.lblMessageErrorModificarCliente.BackColor = System.Drawing.Color.Transparent;
             this.lblMessageErrorModificarCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblMessageErrorModificarCliente.ForeColor = System.Drawing.Color.Red;
-            this.lblMessageErrorModificarCliente.Location = new System.Drawing.Point(11, 660);
-            this.lblMessageErrorModificarCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMessageErrorModificarCliente.Location = new System.Drawing.Point(8, 536);
             this.lblMessageErrorModificarCliente.Name = "lblMessageErrorModificarCliente";
-            this.lblMessageErrorModificarCliente.Size = new System.Drawing.Size(587, 41);
+            this.lblMessageErrorModificarCliente.Size = new System.Drawing.Size(857, 33);
             this.lblMessageErrorModificarCliente.TabIndex = 31;
             this.lblMessageErrorModificarCliente.Text = "{MessageError}";
             this.lblMessageErrorModificarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -107,10 +106,9 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessModificarCliente.BackColor = System.Drawing.Color.Transparent;
             this.lblSuccessModificarCliente.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblSuccessModificarCliente.ForeColor = System.Drawing.Color.Lime;
-            this.lblSuccessModificarCliente.Location = new System.Drawing.Point(8, 660);
-            this.lblSuccessModificarCliente.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSuccessModificarCliente.Location = new System.Drawing.Point(6, 536);
             this.lblSuccessModificarCliente.Name = "lblSuccessModificarCliente";
-            this.lblSuccessModificarCliente.Size = new System.Drawing.Size(587, 41);
+            this.lblSuccessModificarCliente.Size = new System.Drawing.Size(440, 33);
             this.lblSuccessModificarCliente.TabIndex = 30;
             this.lblSuccessModificarCliente.Text = "Cliente actualizado.";
             this.lblSuccessModificarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -165,8 +163,7 @@ namespace Funda_Trabajo_Parcial
             this.btnGuardarDatos.IdleIconLeftImage = null;
             this.btnGuardarDatos.IdleIconRightImage = null;
             this.btnGuardarDatos.IndicateFocus = false;
-            this.btnGuardarDatos.Location = new System.Drawing.Point(1183, 652);
-            this.btnGuardarDatos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnGuardarDatos.Location = new System.Drawing.Point(887, 530);
             this.btnGuardarDatos.Name = "btnGuardarDatos";
             this.btnGuardarDatos.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnGuardarDatos.OnDisabledState.BorderRadius = 30;
@@ -200,7 +197,7 @@ namespace Funda_Trabajo_Parcial
             this.btnGuardarDatos.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnGuardarDatos.OnPressedState.IconLeftImage = null;
             this.btnGuardarDatos.OnPressedState.IconRightImage = null;
-            this.btnGuardarDatos.Size = new System.Drawing.Size(249, 48);
+            this.btnGuardarDatos.Size = new System.Drawing.Size(187, 39);
             this.btnGuardarDatos.TabIndex = 29;
             this.btnGuardarDatos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnGuardarDatos.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -250,8 +247,7 @@ namespace Funda_Trabajo_Parcial
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dataGridViewClienteEditables.DefaultCellStyle = dataGridViewCellStyle5;
             this.dataGridViewClienteEditables.EnableHeadersVisualStyles = false;
-            this.dataGridViewClienteEditables.Location = new System.Drawing.Point(16, 76);
-            this.dataGridViewClienteEditables.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridViewClienteEditables.Location = new System.Drawing.Point(12, 62);
             this.dataGridViewClienteEditables.Name = "dataGridViewClienteEditables";
             this.dataGridViewClienteEditables.RowHeadersVisible = false;
             this.dataGridViewClienteEditables.RowHeadersWidth = 51;
@@ -259,7 +255,7 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewClienteEditables.RowTemplate.Height = 50;
             this.dataGridViewClienteEditables.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.dataGridViewClienteEditables.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewClienteEditables.Size = new System.Drawing.Size(1413, 101);
+            this.dataGridViewClienteEditables.Size = new System.Drawing.Size(1060, 82);
             this.dataGridViewClienteEditables.TabIndex = 28;
             this.dataGridViewClienteEditables.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewClienteEditables_CellClick);
             // 
@@ -296,10 +292,9 @@ namespace Funda_Trabajo_Parcial
             this.comboBoxListClientes.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.comboBoxListClientes.ForeColor = System.Drawing.Color.Black;
             this.comboBoxListClientes.ItemHeight = 17;
-            this.comboBoxListClientes.Location = new System.Drawing.Point(113, 18);
-            this.comboBoxListClientes.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBoxListClientes.Location = new System.Drawing.Point(85, 15);
             this.comboBoxListClientes.Name = "comboBoxListClientes";
-            this.comboBoxListClientes.Size = new System.Drawing.Size(689, 23);
+            this.comboBoxListClientes.Size = new System.Drawing.Size(518, 23);
             this.comboBoxListClientes.TabIndex = 27;
             this.comboBoxListClientes.SelectedIndexChanged += new System.EventHandler(this.comboBoxListClientes_SelectedIndexChanged);
             // 
@@ -309,21 +304,20 @@ namespace Funda_Trabajo_Parcial
             this.lblUserC.BackColor = System.Drawing.Color.Transparent;
             this.lblUserC.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
             this.lblUserC.ForeColor = System.Drawing.Color.White;
-            this.lblUserC.Location = new System.Drawing.Point(9, 16);
+            this.lblUserC.Location = new System.Drawing.Point(7, 13);
             this.lblUserC.Margin = new System.Windows.Forms.Padding(0);
             this.lblUserC.Name = "lblUserC";
-            this.lblUserC.Size = new System.Drawing.Size(89, 30);
+            this.lblUserC.Size = new System.Drawing.Size(75, 25);
             this.lblUserC.TabIndex = 25;
             this.lblUserC.Text = "Cliente:";
             // 
             // ModificarClientes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "ModificarClientes";
-            this.Size = new System.Drawing.Size(1436, 715);
+            this.Size = new System.Drawing.Size(1077, 581);
             this.Load += new System.EventHandler(this.ModificarClientes_Load);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
