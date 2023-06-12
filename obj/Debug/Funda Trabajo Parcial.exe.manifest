@@ -4,7 +4,7 @@
   <description asmv2:iconFile="UPC_logo_transparente.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Funda Trabajo Parcial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="Funda Trabajo Parcial" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="Funda Trabajo Parcial.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -511,14 +511,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Funda Trabajo Parcial.exe" size="781280">
-      <assemblyIdentity name="Funda Trabajo Parcial" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Funda Trabajo Parcial.exe" size="778208">
+      <assemblyIdentity name="Funda Trabajo Parcial" version="1.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fK5O9o7/+rq+L8k7c/Ol8iKuqP4+UvmSxEoJKE2LiRw=</dsig:DigestValue>
+        <dsig:DigestValue>/h+uDZIOHqa7FfJNMV8c/oBHsV6dc59vS++UcUox0Pw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

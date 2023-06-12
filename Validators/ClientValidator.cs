@@ -12,8 +12,8 @@ namespace Funda_Trabajo_Parcial.Validators
         public ClientValidator()
         {
             RuleFor(x => x.nombreEmpresa).NotEmpty().MinimumLength(3).MaximumLength(40).WithMessage("El cliente no se ha podido modificar. El nombre ingresado es inválido");
-            RuleFor(x => x.RUC.ToString()).NotEmpty().Length(11).Matches("^[0-9]+$").WithMessage("El RUC debe tener exactamente 11 caracteres y ser solo números");
-            RuleFor(x => x.fechaRegistro).Must(ValidarFecha).WithMessage("La fecha debe ser mayor a la actual");
+            RuleFor(x => x.RUC.ToString()).NotEmpty().Length(11).Matches("^[0-9]+$").OverridePropertyName("RUC");
+            //RuleFor(x => x.fechaRegistro).Must(ValidarFecha).WithMessage("La fecha debe ser mayor a la actual");
         }
 
 

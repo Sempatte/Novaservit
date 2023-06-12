@@ -5,7 +5,7 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funda Trabajo Parcial", "Funda Trabajo Parcial.csproj", "{E9AD31A5-A49A-4E76-BEF0-F502E446547B}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupNovaservitV2", "..\SetupNovaservitV2\SetupNovaservitV2.vdproj", "{48DB5C97-D2CF-4E34-8A63-1DBF049DB88A}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Novaservit Final", "..\Setup Novaservit Final\Setup Novaservit Final.vdproj", "{CBABA8D9-5A03-43B4-BA31-599FFC0B3513}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{E9AD31A5-A49A-4E76-BEF0-F502E446547B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9AD31A5-A49A-4E76-BEF0-F502E446547B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9AD31A5-A49A-4E76-BEF0-F502E446547B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{48DB5C97-D2CF-4E34-8A63-1DBF049DB88A}.Debug|Any CPU.ActiveCfg = Debug
-		{48DB5C97-D2CF-4E34-8A63-1DBF049DB88A}.Release|Any CPU.ActiveCfg = Release
+		{CBABA8D9-5A03-43B4-BA31-599FFC0B3513}.Debug|Any CPU.ActiveCfg = Debug
+		{CBABA8D9-5A03-43B4-BA31-599FFC0B3513}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

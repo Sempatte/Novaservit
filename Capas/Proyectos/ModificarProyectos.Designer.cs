@@ -43,12 +43,12 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessModificarProyecto = new System.Windows.Forms.Label();
             this.btnGuardarDatosProyecto = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.dataGridViewProyectoEditables = new System.Windows.Forms.DataGridView();
-            this.comboBoxListProyectos = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.lblUserC = new System.Windows.Forms.Label();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnEstado = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.comboBoxListProyectos = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.lblUserC = new System.Windows.Forms.Label();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProyectoEditables)).BeginInit();
             this.SuspendLayout();
@@ -96,7 +96,7 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessModificarProyecto.Name = "lblSuccessModificarProyecto";
             this.lblSuccessModificarProyecto.Size = new System.Drawing.Size(440, 33);
             this.lblSuccessModificarProyecto.TabIndex = 30;
-            this.lblSuccessModificarProyecto.Text = "Cliente actualizado.";
+            this.lblSuccessModificarProyecto.Text = "Proyecto actualizado.";
             this.lblSuccessModificarProyecto.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.lblSuccessModificarProyecto.Visible = false;
             // 
@@ -245,41 +245,6 @@ namespace Funda_Trabajo_Parcial
             this.dataGridViewProyectoEditables.Size = new System.Drawing.Size(1060, 82);
             this.dataGridViewProyectoEditables.TabIndex = 28;
             // 
-            // comboBoxListProyectos
-            // 
-            this.comboBoxListProyectos.BackColor = System.Drawing.Color.Transparent;
-            this.comboBoxListProyectos.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
-            this.comboBoxListProyectos.BorderRadius = 1;
-            this.comboBoxListProyectos.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.comboBoxListProyectos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxListProyectos.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.comboBoxListProyectos.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.comboBoxListProyectos.FocusedState.Parent = this.comboBoxListProyectos;
-            this.comboBoxListProyectos.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.comboBoxListProyectos.ForeColor = System.Drawing.Color.Black;
-            this.comboBoxListProyectos.HoverState.Parent = this.comboBoxListProyectos;
-            this.comboBoxListProyectos.ItemHeight = 17;
-            this.comboBoxListProyectos.ItemsAppearance.Parent = this.comboBoxListProyectos;
-            this.comboBoxListProyectos.Location = new System.Drawing.Point(100, 15);
-            this.comboBoxListProyectos.Name = "comboBoxListProyectos";
-            this.comboBoxListProyectos.ShadowDecoration.Parent = this.comboBoxListProyectos;
-            this.comboBoxListProyectos.Size = new System.Drawing.Size(972, 23);
-            this.comboBoxListProyectos.TabIndex = 27;
-            this.comboBoxListProyectos.SelectedIndexChanged += new System.EventHandler(this.comboBoxListProyectos_SelectedIndexChanged);
-            // 
-            // lblUserC
-            // 
-            this.lblUserC.AutoSize = true;
-            this.lblUserC.BackColor = System.Drawing.Color.Transparent;
-            this.lblUserC.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
-            this.lblUserC.ForeColor = System.Drawing.Color.White;
-            this.lblUserC.Location = new System.Drawing.Point(7, 13);
-            this.lblUserC.Margin = new System.Windows.Forms.Padding(0);
-            this.lblUserC.Name = "lblUserC";
-            this.lblUserC.Size = new System.Drawing.Size(90, 25);
-            this.lblUserC.TabIndex = 25;
-            this.lblUserC.Text = "Proyecto:";
-            // 
             // Column3
             // 
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
@@ -322,6 +287,37 @@ namespace Funda_Trabajo_Parcial
             this.ColumnEstado.Name = "ColumnEstado";
             this.ColumnEstado.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ColumnEstado.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            // 
+            // comboBoxListProyectos
+            // 
+            this.comboBoxListProyectos.BackColor = System.Drawing.Color.Transparent;
+            this.comboBoxListProyectos.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(43)))));
+            this.comboBoxListProyectos.BorderRadius = 1;
+            this.comboBoxListProyectos.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.comboBoxListProyectos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxListProyectos.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.comboBoxListProyectos.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.comboBoxListProyectos.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.comboBoxListProyectos.ForeColor = System.Drawing.Color.Black;
+            this.comboBoxListProyectos.ItemHeight = 17;
+            this.comboBoxListProyectos.Location = new System.Drawing.Point(100, 15);
+            this.comboBoxListProyectos.Name = "comboBoxListProyectos";
+            this.comboBoxListProyectos.Size = new System.Drawing.Size(972, 23);
+            this.comboBoxListProyectos.TabIndex = 27;
+            this.comboBoxListProyectos.SelectedIndexChanged += new System.EventHandler(this.comboBoxListProyectos_SelectedIndexChanged);
+            // 
+            // lblUserC
+            // 
+            this.lblUserC.AutoSize = true;
+            this.lblUserC.BackColor = System.Drawing.Color.Transparent;
+            this.lblUserC.Font = new System.Drawing.Font("Segoe UI Semibold", 13F, System.Drawing.FontStyle.Bold);
+            this.lblUserC.ForeColor = System.Drawing.Color.White;
+            this.lblUserC.Location = new System.Drawing.Point(7, 13);
+            this.lblUserC.Margin = new System.Windows.Forms.Padding(0);
+            this.lblUserC.Name = "lblUserC";
+            this.lblUserC.Size = new System.Drawing.Size(90, 25);
+            this.lblUserC.TabIndex = 25;
+            this.lblUserC.Text = "Proyecto:";
             // 
             // ModificarProyectos
             // 

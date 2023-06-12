@@ -2,6 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using System.Threading;
+using System.Reflection;
 
 namespace Funda_Trabajo_Parcial
 {
@@ -9,6 +10,7 @@ namespace Funda_Trabajo_Parcial
     {
 
         public Thread MP;
+        string version = Assembly.GetEntryAssembly().GetName().Version.ToString();
 
         public static string UsernameLogin { get; set; }
 
@@ -30,6 +32,7 @@ namespace Funda_Trabajo_Parcial
         public InicioDeSesion()
         {
             InitializeComponent();
+            lblVersionProgram.Text = "v" + version;
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.None;
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 10, 10)); // Bordes redondeados

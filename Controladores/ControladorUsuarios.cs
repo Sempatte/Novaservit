@@ -303,7 +303,7 @@ namespace Funda_Trabajo_Parcial
             usuario DatosUsuario = getUsuarioDb(newUser.username);
             if (DatosUsuario != null) return "El usuario ya existe.";
 
-
+            newUser.password = Encriptacion.Encrypt(newUser.password);
             Database.Main.usuarios.Add(newUser);
             Database.Main.SaveChanges();
             return "";

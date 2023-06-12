@@ -81,21 +81,26 @@ namespace Funda_Trabajo_Parcial
 
             if (!result.IsValid)
             {
-                Console.WriteLine("Client invalid");
+
                 lblMessageErrorClienteAgregado.Visible = true;
                 foreach (var error in result.Errors)
                 {
-                    Console.WriteLine("1", error.ErrorMessage);
-                    lblMessageErrorClienteAgregado.Text = error.PropertyName + " " +  error.ErrorMessage;
+                    Console.WriteLine(error.PropertyName + "," + error.ErrorMessage);
+                    lblMessageErrorClienteAgregado.Text = error.ErrorMessage;
                 }
                 return;
             }
 
             
-            ControladorClientes.AddCliente(newClient);
+            string addResult = ControladorClientes.AddCliente(newClient);
+            if (addResult.Length > 0)
+            {
+                lblMessageErrorClienteAgregado.Visible = true;
+                lblMessageErrorClienteAgregado.Text = addResult;
+                return;
+            }
+            lblMessageErrorClienteAgregado.Text = addResult;
             lblSuccessClienteAgregado.Visible = true;
-
-        
 
         }
 

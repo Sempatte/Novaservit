@@ -71,10 +71,9 @@ namespace Funda_Trabajo_Parcial
             this.bunifuPanel1.Controls.Add(this.btnActualizarProyectos);
             this.bunifuPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bunifuPanel1.Location = new System.Drawing.Point(0, 0);
-            this.bunifuPanel1.Margin = new System.Windows.Forms.Padding(4);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(1436, 715);
+            this.bunifuPanel1.Size = new System.Drawing.Size(1077, 581);
             this.bunifuPanel1.TabIndex = 0;
             this.bunifuPanel1.Click += new System.EventHandler(this.bunifuPanel1_Click);
             // 
@@ -82,9 +81,10 @@ namespace Funda_Trabajo_Parcial
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(384, 370);
+            this.pictureBox1.Location = new System.Drawing.Point(288, 301);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(517, 285);
+            this.pictureBox1.Size = new System.Drawing.Size(388, 232);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
@@ -100,10 +100,9 @@ namespace Funda_Trabajo_Parcial
             this.btnAgregarDatos.Font = new System.Drawing.Font("Segoe UI Semibold", 10.75F, System.Drawing.FontStyle.Bold);
             this.btnAgregarDatos.ForeColor = System.Drawing.SystemColors.Control;
             this.btnAgregarDatos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAgregarDatos.Location = new System.Drawing.Point(1132, 403);
-            this.btnAgregarDatos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAgregarDatos.Location = new System.Drawing.Point(849, 327);
             this.btnAgregarDatos.Name = "btnAgregarDatos";
-            this.btnAgregarDatos.Size = new System.Drawing.Size(267, 46);
+            this.btnAgregarDatos.Size = new System.Drawing.Size(200, 37);
             this.btnAgregarDatos.TabIndex = 25;
             this.btnAgregarDatos.Text = "Agregar proyecto";
             this.btnAgregarDatos.UseVisualStyleBackColor = false;
@@ -115,9 +114,10 @@ namespace Funda_Trabajo_Parcial
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.label5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.label5.Location = new System.Drawing.Point(50, 43);
+            this.label5.Location = new System.Drawing.Point(38, 35);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(75, 25);
+            this.label5.Size = new System.Drawing.Size(58, 20);
             this.label5.TabIndex = 26;
             this.label5.Text = "Cliente:";
             // 
@@ -131,11 +131,9 @@ namespace Funda_Trabajo_Parcial
             this.groupBox2.Controls.Add(this.txtboxPrice);
             this.groupBox2.Controls.Add(this.txtboxNombreProyecto);
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox2.Location = new System.Drawing.Point(20, 136);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(15, 110);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(1379, 227);
+            this.groupBox2.Size = new System.Drawing.Size(1034, 184);
             this.groupBox2.TabIndex = 33;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Datos del proyecto";
@@ -144,9 +142,10 @@ namespace Funda_Trabajo_Parcial
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label3.Location = new System.Drawing.Point(138, 139);
+            this.label3.Location = new System.Drawing.Point(104, 113);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 25);
+            this.label3.Size = new System.Drawing.Size(81, 20);
             this.label3.TabIndex = 24;
             this.label3.Text = "Costo (S/.):";
             // 
@@ -154,9 +153,10 @@ namespace Funda_Trabajo_Parcial
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label2.Location = new System.Drawing.Point(45, 94);
+            this.label2.Location = new System.Drawing.Point(34, 76);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(195, 25);
+            this.label2.Size = new System.Drawing.Size(155, 20);
             this.label2.TabIndex = 23;
             this.label2.Text = "Nombre del proyecto:";
             // 
@@ -164,9 +164,10 @@ namespace Funda_Trabajo_Parcial
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11F);
-            this.label1.Location = new System.Drawing.Point(102, 47);
+            this.label1.Location = new System.Drawing.Point(76, 38);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(142, 25);
+            this.label1.Size = new System.Drawing.Size(111, 20);
             this.label1.TabIndex = 22;
             this.label1.Text = "Fecha de Inicio:";
             // 
@@ -178,12 +179,11 @@ namespace Funda_Trabajo_Parcial
             this.datepickerFechaInicio.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.datepickerFechaInicio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.datepickerFechaInicio.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.datepickerFechaInicio.Location = new System.Drawing.Point(265, 47);
-            this.datepickerFechaInicio.Margin = new System.Windows.Forms.Padding(4);
+            this.datepickerFechaInicio.Location = new System.Drawing.Point(199, 38);
             this.datepickerFechaInicio.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.datepickerFechaInicio.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
             this.datepickerFechaInicio.Name = "datepickerFechaInicio";
-            this.datepickerFechaInicio.Size = new System.Drawing.Size(301, 31);
+            this.datepickerFechaInicio.Size = new System.Drawing.Size(226, 25);
             this.datepickerFechaInicio.TabIndex = 20;
             this.datepickerFechaInicio.Value = new System.DateTime(2023, 4, 19, 16, 44, 51, 132);
             // 
@@ -200,13 +200,13 @@ namespace Funda_Trabajo_Parcial
             this.txtboxPrice.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxPrice.ForeColor = System.Drawing.Color.Black;
             this.txtboxPrice.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxPrice.Location = new System.Drawing.Point(265, 139);
-            this.txtboxPrice.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtboxPrice.Location = new System.Drawing.Point(199, 113);
+            this.txtboxPrice.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtboxPrice.Name = "txtboxPrice";
             this.txtboxPrice.PasswordChar = '\0';
             this.txtboxPrice.PlaceholderText = "8700.40";
             this.txtboxPrice.SelectedText = "";
-            this.txtboxPrice.Size = new System.Drawing.Size(87, 28);
+            this.txtboxPrice.Size = new System.Drawing.Size(65, 23);
             this.txtboxPrice.TabIndex = 19;
             this.txtboxPrice.Validating += new System.ComponentModel.CancelEventHandler(this.txtboxPrice_Validating);
             this.txtboxPrice.Validated += new System.EventHandler(this.txtboxPrice_Validated);
@@ -224,13 +224,13 @@ namespace Funda_Trabajo_Parcial
             this.txtboxNombreProyecto.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.txtboxNombreProyecto.ForeColor = System.Drawing.Color.Black;
             this.txtboxNombreProyecto.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtboxNombreProyecto.Location = new System.Drawing.Point(265, 94);
-            this.txtboxNombreProyecto.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtboxNombreProyecto.Location = new System.Drawing.Point(199, 76);
+            this.txtboxNombreProyecto.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txtboxNombreProyecto.Name = "txtboxNombreProyecto";
             this.txtboxNombreProyecto.PasswordChar = '\0';
             this.txtboxNombreProyecto.PlaceholderText = "Elaboración Landing Page";
             this.txtboxNombreProyecto.SelectedText = "";
-            this.txtboxNombreProyecto.Size = new System.Drawing.Size(267, 28);
+            this.txtboxNombreProyecto.Size = new System.Drawing.Size(200, 23);
             this.txtboxNombreProyecto.TabIndex = 18;
             // 
             // comboboxClientes
@@ -243,9 +243,10 @@ namespace Funda_Trabajo_Parcial
             this.comboboxClientes.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.comboboxClientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.comboboxClientes.ItemHeight = 30;
-            this.comboboxClientes.Location = new System.Drawing.Point(131, 43);
+            this.comboboxClientes.Location = new System.Drawing.Point(98, 35);
+            this.comboboxClientes.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboboxClientes.Name = "comboboxClientes";
-            this.comboboxClientes.Size = new System.Drawing.Size(339, 36);
+            this.comboboxClientes.Size = new System.Drawing.Size(255, 36);
             this.comboboxClientes.TabIndex = 32;
             this.comboboxClientes.SelectedIndexChanged += new System.EventHandler(this.comboboxClientes_SelectedIndexChanged);
             // 
@@ -254,10 +255,9 @@ namespace Funda_Trabajo_Parcial
             this.lblMessageErrorProyectos.BackColor = System.Drawing.Color.Transparent;
             this.lblMessageErrorProyectos.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblMessageErrorProyectos.ForeColor = System.Drawing.Color.Red;
-            this.lblMessageErrorProyectos.Location = new System.Drawing.Point(15, 656);
-            this.lblMessageErrorProyectos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMessageErrorProyectos.Location = new System.Drawing.Point(11, 533);
             this.lblMessageErrorProyectos.Name = "lblMessageErrorProyectos";
-            this.lblMessageErrorProyectos.Size = new System.Drawing.Size(587, 41);
+            this.lblMessageErrorProyectos.Size = new System.Drawing.Size(864, 33);
             this.lblMessageErrorProyectos.TabIndex = 25;
             this.lblMessageErrorProyectos.Text = "{MessageError}";
             this.lblMessageErrorProyectos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -268,10 +268,9 @@ namespace Funda_Trabajo_Parcial
             this.lblSuccessProyectos.BackColor = System.Drawing.Color.Transparent;
             this.lblSuccessProyectos.Font = new System.Drawing.Font("Segoe UI Semibold", 11F, System.Drawing.FontStyle.Bold);
             this.lblSuccessProyectos.ForeColor = System.Drawing.Color.Lime;
-            this.lblSuccessProyectos.Location = new System.Drawing.Point(15, 656);
-            this.lblSuccessProyectos.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblSuccessProyectos.Location = new System.Drawing.Point(11, 533);
             this.lblSuccessProyectos.Name = "lblSuccessProyectos";
-            this.lblSuccessProyectos.Size = new System.Drawing.Size(587, 41);
+            this.lblSuccessProyectos.Size = new System.Drawing.Size(440, 33);
             this.lblSuccessProyectos.TabIndex = 31;
             this.lblSuccessProyectos.Text = "Proyecto agregado con éxito.";
             this.lblSuccessProyectos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -326,8 +325,7 @@ namespace Funda_Trabajo_Parcial
             this.btnActualizarProyectos.IdleIconLeftImage = null;
             this.btnActualizarProyectos.IdleIconRightImage = null;
             this.btnActualizarProyectos.IndicateFocus = false;
-            this.btnActualizarProyectos.Location = new System.Drawing.Point(1175, 649);
-            this.btnActualizarProyectos.Margin = new System.Windows.Forms.Padding(4);
+            this.btnActualizarProyectos.Location = new System.Drawing.Point(881, 527);
             this.btnActualizarProyectos.Name = "btnActualizarProyectos";
             this.btnActualizarProyectos.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.btnActualizarProyectos.OnDisabledState.BorderRadius = 30;
@@ -361,7 +359,7 @@ namespace Funda_Trabajo_Parcial
             this.btnActualizarProyectos.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.btnActualizarProyectos.OnPressedState.IconLeftImage = null;
             this.btnActualizarProyectos.OnPressedState.IconRightImage = null;
-            this.btnActualizarProyectos.Size = new System.Drawing.Size(249, 48);
+            this.btnActualizarProyectos.Size = new System.Drawing.Size(187, 39);
             this.btnActualizarProyectos.TabIndex = 21;
             this.btnActualizarProyectos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.btnActualizarProyectos.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -372,12 +370,11 @@ namespace Funda_Trabajo_Parcial
             // 
             // AgregarProyectos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.bunifuPanel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AgregarProyectos";
-            this.Size = new System.Drawing.Size(1436, 715);
+            this.Size = new System.Drawing.Size(1077, 581);
             this.bunifuPanel1.ResumeLayout(false);
             this.bunifuPanel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

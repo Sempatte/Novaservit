@@ -60,6 +60,7 @@ namespace Funda_Trabajo_Parcial
             this.PanelFondo = new Bunifu.UI.WinForms.BunifuGradientPanel();
             this.guna2ImageButton1 = new Guna.UI2.WinForms.Guna2ImageButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblVersionProgram = new Bunifu.UI.WinForms.BunifuLabel();
             this.panelDerechoLogin.SuspendLayout();
             this.PanelFondo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -537,6 +538,7 @@ namespace Funda_Trabajo_Parcial
             this.PanelFondo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelFondo.BackgroundImage")));
             this.PanelFondo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.PanelFondo.BorderRadius = 1;
+            this.PanelFondo.Controls.Add(this.lblVersionProgram);
             this.PanelFondo.Controls.Add(this.guna2ImageButton1);
             this.PanelFondo.Controls.Add(this.pictureBox1);
             this.PanelFondo.Dock = System.Windows.Forms.DockStyle.Left;
@@ -577,6 +579,22 @@ namespace Funda_Trabajo_Parcial
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
             // 
+            // lblVersionProgram
+            // 
+            this.lblVersionProgram.AllowParentOverrides = false;
+            this.lblVersionProgram.AutoEllipsis = false;
+            this.lblVersionProgram.CursorType = System.Windows.Forms.Cursors.Default;
+            this.lblVersionProgram.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblVersionProgram.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblVersionProgram.Location = new System.Drawing.Point(12, 446);
+            this.lblVersionProgram.Name = "lblVersionProgram";
+            this.lblVersionProgram.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.lblVersionProgram.Size = new System.Drawing.Size(55, 15);
+            this.lblVersionProgram.TabIndex = 16;
+            this.lblVersionProgram.Text = "{{Version}}";
+            this.lblVersionProgram.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.lblVersionProgram.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
             // InicioDeSesion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -592,6 +610,7 @@ namespace Funda_Trabajo_Parcial
             this.panelDerechoLogin.ResumeLayout(false);
             this.panelDerechoLogin.PerformLayout();
             this.PanelFondo.ResumeLayout(false);
+            this.PanelFondo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -614,5 +633,6 @@ namespace Funda_Trabajo_Parcial
         private Guna.UI2.WinForms.Guna2ImageButton guna2ImageButton1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
+        private Bunifu.UI.WinForms.BunifuLabel lblVersionProgram;
     }
 }

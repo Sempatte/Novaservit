@@ -85,7 +85,13 @@ namespace Funda_Trabajo_Parcial
 
 
 
-        
+        public static cliente BuscarClientePorRUC(long ruc)
+        {
+            using (var contexto = new Database())
+            {
+                return contexto.clientes.FirstOrDefault(u => u.RUC == ruc);
+            }
+        }
 
         public static void GuardarDatosCliente(cliente clienteModificado)
         {
@@ -118,13 +124,20 @@ namespace Funda_Trabajo_Parcial
 
         }
 
-        public static void AddCliente(cliente Cliente)
+        public static string AddCliente(cliente Cliente)
         {
 
+            cliente _cliente = BuscarClientePorRUC(Cliente.RUC);
+            if (_cliente != null)
+            {
+                return "El RUC ya se encuentra registrado en el sistema.";
+            }
+
             Database.Main.clientes.Add(Cliente);
-  
+             
 
             Database.Main.SaveChanges();
+            return "Cliente agregado con éxito.";
         }
 
         public static void ActualizarTablaClientes()

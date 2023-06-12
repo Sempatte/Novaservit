@@ -129,7 +129,7 @@ namespace Funda_Trabajo_Parcial
             string email = txtboxEmail.Text;
 
             lblError.Visible = false;
-            //TO DO: Registrar usuario
+          
 
 
             if (password != password2)
@@ -144,7 +144,7 @@ namespace Funda_Trabajo_Parcial
                 email = email,
                 password = password,
                 username = username,
-                photo = "https://media.istockphoto.com/id/1208175274/vector/avatar-vector-icon-simple-element-illustrationavatar-vector-icon-material-concept-vector.jpg?s=612x612&w=0&k=20&c=t4aK_TKnYaGQcPAC5Zyh46qqAtuoPcb-mjtQax3_9Xc=",
+                photo = "https://static.vecteezy.com/system/resources/previews/008/442/086/original/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg",
                 rank = 1
             };
 
